@@ -16,14 +16,29 @@ use std::path::{Path, PathBuf};
 use std::time::Instant;
 
 fn main() {
-    let args: Vec<String> = std::env::args().collect();
-    // args: [prog] <wordlist.csv> <out.json> <assets_dir> [limit]
+    let mut args: Vec<String> = std::env::args().collect();
+    // --diff <baseline.json>: after building, report entry-level changes vs a
+    // previous output. This is the pattern-experimentation loop: regenerate with
+    // edited patterns and see in seconds exactly what a change does.
+    let mut diff_baseline: Option<String> = None;
+    if let Some(i) = args.iter().position(|a| a == "--diff") {
+        if i + 1 >= args.len() {
+            eprintln!("--diff needs a baseline JSON path");
+            std::process::exit(2);
+        }
+        diff_baseline = Some(args.remove(i + 1));
+        args.remove(i);
+    }
+    // args: [prog] <wordlist.csv> <out.json> <assets_dir> [limit] [--diff baseline.json]
     let (wordlist, out_path, assets_dir) = match (args.get(1), args.get(2), args.get(3)) {
         (Some(w), Some(o), Some(a)) => (w.clone(), o.clone(), a.clone()),
         _ => {
-            eprintln!("usage: regen-rs <wordlist.csv> <out.json> <assets_dir> [limit]");
+            eprintln!(
+                "usage: regen-rs <wordlist.csv> <out.json> <assets_dir> [limit] [--diff baseline.json]"
+            );
             eprintln!("  wordlist.csv  the mkrnr/wortformliste word,type list");
             eprintln!("  assets_dir    the Python generator's assets/ (patterns + dictionaries)");
+            eprintln!("  --diff        report added/removed/changed entries vs a previous output");
             std::process::exit(2);
         }
     };
@@ -186,6 +201,82 @@ fn main() {
         m_entries,
         t_total.elapsed().as_secs_f64()
     );
+
+    if let Some(baseline_path) = diff_baseline {
+        report_diff(&baseline_path, &dict);
+    }
+}
+
+/// Entry-level diff against a previous output: what a pattern (or code) change
+/// actually does to the dictionary, in seconds.
+fn report_diff(baseline_path: &str, dict: &BTreeMap<String, String>) {
+    let text = std::fs::read_to_string(baseline_path).expect("cannot read diff baseline");
+    let baseline: BTreeMap<String, String> =
+        serde_json::from_str(&text).expect("diff baseline is not an outline->word JSON object");
+
+    let added: Vec<(&String, &String)> = dict
+        .iter()
+        .filter(|(k, _)| !baseline.contains_key(*k))
+        .collect();
+    let removed: Vec<(&String, &String)> = baseline
+        .iter()
+        .filter(|(k, _)| !dict.contains_key(*k))
+        .collect();
+    let changed: Vec<(&String, &String, &String)> = dict
+        .iter()
+        .filter_map(|(k, v)| match baseline.get(k) {
+            Some(old) if old != v => Some((k, old, v)),
+            _ => None,
+        })
+        .collect();
+
+    let old_words: std::collections::HashSet<&String> = baseline.values().collect();
+    let new_words: std::collections::HashSet<&String> = dict.values().collect();
+    let now_writable: Vec<&&String> = new_words.difference(&old_words).collect();
+    let lost: Vec<&&String> = old_words.difference(&new_words).collect();
+
+    println!(
+        "diff vs {}: +{} entries, -{} entries, {} reassigned | words newly writable: {}, no longer writable: {}",
+        baseline_path,
+        added.len(),
+        removed.len(),
+        changed.len(),
+        now_writable.len(),
+        lost.len()
+    );
+    let show = |label: &str, items: Vec<String>| {
+        if !items.is_empty() {
+            println!("  {label}:");
+            let n = items.len();
+            for line in items.into_iter().take(10) {
+                println!("    {line}");
+            }
+            if n > 10 {
+                println!("    ... and {} more", n - 10);
+            }
+        }
+    };
+    show(
+        "added",
+        added.iter().map(|(k, v)| format!("{k} -> {v}")).collect(),
+    );
+    show(
+        "removed",
+        removed.iter().map(|(k, v)| format!("{k} -> {v}")).collect(),
+    );
+    show(
+        "reassigned",
+        changed
+            .iter()
+            .map(|(k, old, new)| format!("{k}: {old} -> {new}"))
+            .collect(),
+    );
+    let mut newly: Vec<String> = now_writable.iter().map(|w| w.to_string()).collect();
+    newly.sort();
+    show("newly writable", newly);
+    let mut gone: Vec<String> = lost.iter().map(|w| w.to_string()).collect();
+    gone.sort();
+    show("no longer writable", gone);
 }
 
 /// Write the dict as JSON with indent=0 and ensure_ascii=False, matching the

@@ -48,6 +48,22 @@ cargo build --release
 The word list (`data/wortformliste.csv`) is the external input — the same
 [mkrnr/wortformliste](https://github.com/mkrnr/wortformliste) the Python generator takes.
 
+## Experiment on patterns (`--diff`)
+
+The point of a seconds-fast build: edit a pattern file, rebuild, and see exactly what
+changed — entry level, full corpus.
+
+```sh
+./target/release/regen-rs data/wortformliste.csv baseline.json assets            # once
+# ... edit assets/patterns/right_patterns.json ...
+./target/release/regen-rs data/wortformliste.csv new.json assets --diff baseline.json
+# -> +N entries, -N entries, N reassigned | words newly writable: N, no longer writable: N
+#    (with samples of each)
+```
+
+Point `assets` at the Python repo's `regenpfeifer/assets/` to evaluate a pattern PR
+against the real theory in one command.
+
 ## Validate
 
 ```sh
