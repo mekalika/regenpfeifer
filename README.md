@@ -21,6 +21,11 @@ Optional flags: `--log unmatched.log` writes unmatched words and outline
 collisions, `--workers N` limits the process count, `--limit N` generates only
 the first N words (see `--help`).
 
+This branch also carries [regenpfeifer-rs](regenpfeifer-rs/), a Rust port of the
+generator that produces the same dictionary in seconds instead of hours — see its
+[README](regenpfeifer-rs/README.md) for the build/validate story and the commit
+progression explaining the algorithm.
+
 
 
 ## Development

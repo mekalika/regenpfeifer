@@ -4,59 +4,6 @@
 //! `[...]` or (in split) lowercase runs are split per-character-run between
 //! brackets.
 
-/// Like `split` (each `[...]` is one part; outside-bracket runs accumulate into one
-/// part, matching the Python char loop), but writes parts into `out`, reusing the
-/// `String` slots already in
-/// `out` (and its outer `Vec` capacity) across calls to avoid per-part allocation.
-/// `out` is logically reset (length set to the number of parts found); any extra
-/// pre-existing slots are dropped.
-pub fn split_into(stroke: &str, out: &mut Vec<String>) {
-    let mut n = 0usize; // number of parts written so far
-
-    // Helper closure-free push: reuse out[n] if present, else push a fresh String.
-    macro_rules! begin_part {
-        ($first:expr) => {{
-            if n < out.len() {
-                out[n].clear();
-                out[n].push($first);
-            } else {
-                let mut s = String::new();
-                s.push($first);
-                out.push(s);
-            }
-        }};
-    }
-
-    let mut in_part = false;
-    for ch in stroke.chars() {
-        if ch == '[' {
-            if in_part {
-                n += 1;
-            }
-            begin_part!('[');
-            in_part = true;
-        } else if ch == ']' {
-            if in_part {
-                out[n].push(']');
-                n += 1;
-                in_part = false;
-            }
-            // stray ']' on empty part: dropped (no current part)
-        } else {
-            if !in_part {
-                begin_part!(ch);
-                in_part = true;
-            } else {
-                out[n].push(ch);
-            }
-        }
-    }
-    if in_part {
-        n += 1;
-    }
-    out.truncate(n);
-}
-
 /// Zero-allocation variant of `split`: invokes `f` with each part as a `&str`
 /// slice of `stroke`. Every part is a contiguous substring (the only divergence
 /// from `split` — a stray `]` on an empty part — produces no part, so no slice
@@ -247,133 +194,6 @@ fn insert_asterisk(stroke: &str, index: Option<usize>) -> String {
 const LEFT_KEYS: &[char] = &['Z', 'S', 'T', 'K', 'P', 'W', 'H', 'R'];
 const VOWEL_KEYS: &[char] = &['A', 'O', '*', 'E', 'U'];
 const RIGHT_KEYS: &[char] = &['-', 'F', 'R', 'P', 'B', 'L', 'G', 'T', 'S', 'D', 'Z'];
-
-/// Validate a candidate held as a list of already-split `parts` (no '/' present —
-/// within `match_word` a candidate is a single stroke), as if
-/// `validate(strip_unmatched_letters(join(parts)))` were applied. `override_idx`,
-/// when set, substitutes `override_val` for `parts[idx]` without materializing the
-/// joined string — letting the matcher validate BEFORE allocating the result string.
-pub fn validate_parts_stripped(
-    parts: &[String],
-    override_idx: usize,
-    override_val: Option<&str>,
-) -> bool {
-    let mut st = SegState::new();
-    for (k, p) in parts.iter().enumerate() {
-        let part: &str = if override_idx == k {
-            match override_val {
-                Some(v) => v,
-                None => p.as_str(),
-            }
-        } else {
-            p.as_str()
-        };
-        // `split_into` guarantees each element starts a new part at a `[`, so an
-        // element either (a) is a pure lowercase run — stripped, ignore — or (b)
-        // begins with exactly one bracket token `[...]` optionally followed by
-        // leftover lowercase (also stripped). So we only ever need to validate the
-        // single leading `[...]` token, if present.
-        if !part.starts_with('[') {
-            continue; // lowercase run -> stripped
-        }
-        // Find the matching ']' (brackets don't nest in this data); the token is the
-        // inclusive `[...]` slice. Anything after it is leftover lowercase (stripped).
-        match part.as_bytes().iter().position(|&b| b == b']') {
-            Some(end) => {
-                if !st.push_token(&part[..=end]) {
-                    return false;
-                }
-            }
-            None => {
-                // A stray '[' with no closing ']' — `split_each` would still surface
-                // it as a (non-`]`-terminated) token; fall back to the faithful path.
-                if !st.push_token(part) {
-                    return false;
-                }
-            }
-        }
-    }
-    st.finish()
-}
-
-/// Incremental state machine for validating one stroke segment under the "stripped"
-/// rules (ignore non-bracketed parts; `*` removed before validation). Shared by the
-/// string and the parts-based validators.
-struct SegState {
-    any_bracket: bool,
-    passed_vowel: bool,
-    right_before_vowel: bool,
-    right_hyphen_seen: bool,
-    left_cur: usize,
-    vowel_cur: usize,
-    right_cur: usize,
-}
-
-impl SegState {
-    #[inline]
-    fn new() -> Self {
-        SegState {
-            any_bracket: false,
-            passed_vowel: false,
-            right_before_vowel: false,
-            right_hyphen_seen: false,
-            left_cur: 0,
-            vowel_cur: 0,
-            right_cur: 0,
-        }
-    }
-
-    /// Process one token (a `[...]` bracketed part or a lowercase run). Returns false
-    /// on an order/placement violation. Non-bracketed tokens are ignored (stripped).
-    #[inline]
-    fn push_token(&mut self, part: &str) -> bool {
-        if !part.starts_with('[') {
-            return true; // strip_unmatched_letters drops non-bracketed runs
-        }
-        self.any_bracket = true;
-        let is_right = part.starts_with("[-");
-        let is_vowel = part.starts_with("[e|") || part == "[*]";
-        if !self.passed_vowel && is_right {
-            self.right_before_vowel = true;
-        }
-        if self.passed_vowel && !is_right {
-            return false;
-        }
-        if part.starts_with("[e|") {
-            self.passed_vowel = true;
-        }
-        if is_right {
-            if !self.right_hyphen_seen {
-                if !advance_key('-', RIGHT_KEYS, &mut self.right_cur) {
-                    return false;
-                }
-                self.right_hyphen_seen = true;
-            }
-            for c in part[2..part.len() - 1].chars() {
-                if c == '*' {
-                    continue;
-                }
-                if !advance_key(c, RIGHT_KEYS, &mut self.right_cur) {
-                    return false;
-                }
-            }
-            true
-        } else if is_vowel {
-            consume_inner_keys_nostar(part, VOWEL_KEYS, &mut self.vowel_cur)
-        } else {
-            consume_inner_keys_nostar(part, LEFT_KEYS, &mut self.left_cur)
-        }
-    }
-
-    #[inline]
-    fn finish(&self) -> bool {
-        if !self.any_bracket {
-            return true; // empty stripped segment -> dropped -> valid
-        }
-        !(self.passed_vowel && self.right_before_vowel)
-    }
-}
-
 pub fn validate(strokes: &str) -> bool {
     // Python first strips ALL '*' from the whole string, then splits on '/'.
     let owned;
@@ -497,23 +317,44 @@ fn consume_inner_keys(part: &str, keys: &[char], cur: &mut usize) -> bool {
     true
 }
 
-/// Like `consume_inner_keys` but skips any '*' (the stripped-path validator removes
-/// all '*' before validating, so `[*]` contributes no keys).
-#[inline]
-fn consume_inner_keys_nostar(part: &str, keys: &[char], cur: &mut usize) -> bool {
-    let inner = part
-        .strip_prefix('[')
-        .and_then(|s| s.strip_suffix(']'))
-        .unwrap_or(part);
-    let inner = inner.strip_prefix("e|").unwrap_or(inner);
-    for c in inner.chars() {
-        if c == '*' {
-            continue;
-        }
-        if !advance_key(c, keys, cur) {
-            return false;
-        }
-    }
-    true
-}
+#[cfg(test)]
+mod tests {
+    use super::*;
 
+    #[test]
+    fn validate_accepts_well_formed_strokes() {
+        assert!(validate("[S][e|A][-R]")); // left S, vowel A, right R, all in order
+        assert!(validate("[R]")); // a lone left consonant is a valid stroke
+        assert!(validate("[S]*[e|A]")); // '*' is stripped before the order check
+    }
+
+    #[test]
+    fn validate_rejects_malformed_strokes() {
+        assert!(!validate("[S][Z]")); // left-bank order violation (Z precedes S)
+        assert!(!validate("[S]x")); // a bare, non-bracketed leftover
+        assert!(!validate("[-R][e|A]")); // a right-bank key before the vowel
+    }
+
+    #[test]
+    fn remove_markup_strips_brackets_and_markers() {
+        assert_eq!(remove_markup("[S][e|A][-R]"), "SAR");
+        assert_eq!(remove_markup("[K][e|O][-FP]*"), "KOFP*");
+        assert_eq!(remove_markup("[T][-R]"), "T-R"); // Path B keeps the first right-hyphen
+    }
+
+    #[test]
+    fn reposition_asterisks_moves_star_before_first_non_left_key() {
+        assert_eq!(reposition_asterisks("KOFP*"), "KO*FP"); // Kopf: * lands before the coda
+        assert_eq!(reposition_asterisks("WOFL"), "WOFL"); // no '*' -> unchanged
+    }
+
+    #[test]
+    fn reposition_asterisks_preserves_faithful_python_quirks() {
+        // Quirk 1: when every key precedes the asterisk slot, Python's
+        // stroke[:None]+"*"+stroke[None:] doubles the stroke. Pinned, not endorsed.
+        assert_eq!(reposition_asterisks("KP*"), "KP*KP");
+        // Quirk 2: a '*'-and-'-' segment maps '-' -> '*' and Python `break`s, dropping
+        // every later segment. Pinned, not endorsed.
+        assert_eq!(reposition_asterisks("T-S*/KP"), "T*S*");
+    }
+}

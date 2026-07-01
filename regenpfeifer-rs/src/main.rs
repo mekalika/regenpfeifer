@@ -17,19 +17,16 @@ use std::time::Instant;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
-    // args: [prog] [wordlist.csv] [out.json] [assets_dir] [limit]
-    let wordlist = args
-        .get(1)
-        .cloned()
-        .unwrap_or_else(|| "/tmp/wortformliste.csv".to_string());
-    let out_path = args
-        .get(2)
-        .cloned()
-        .unwrap_or_else(|| "/tmp/regen-rs-out.json".to_string());
-    let assets_dir = args
-        .get(3)
-        .cloned()
-        .unwrap_or_else(|| "/tmp/fork-gen/regenpfeifer/assets".to_string());
+    // args: [prog] <wordlist.csv> <out.json> <assets_dir> [limit]
+    let (wordlist, out_path, assets_dir) = match (args.get(1), args.get(2), args.get(3)) {
+        (Some(w), Some(o), Some(a)) => (w.clone(), o.clone(), a.clone()),
+        _ => {
+            eprintln!("usage: regen-rs <wordlist.csv> <out.json> <assets_dir> [limit]");
+            eprintln!("  wordlist.csv  the mkrnr/wortformliste word,type list");
+            eprintln!("  assets_dir    the Python generator's assets/ (patterns + dictionaries)");
+            std::process::exit(2);
+        }
+    };
     let limit: usize = args.get(4).and_then(|s| s.parse().ok()).unwrap_or(0);
 
     // Validation mode: REGEN_DUMP=<words_file> -> print word\t[outlines json] using
@@ -90,16 +87,25 @@ fn main() {
     // --- build generator (shared, read-only) ---
     let t_build = Instant::now();
     let splitter = WordSplitter::new(&trie_words);
-    let generator = Generator::new(splitter, Emphasizer::new(), Matcher::new(vowel, left, right));
-    eprintln!("trie/generator built in {:.1}s", t_build.elapsed().as_secs_f64());
+    let generator = Generator::new(
+        splitter,
+        Emphasizer::new(),
+        Matcher::new(vowel, left, right),
+    );
+    eprintln!(
+        "trie/generator built in {:.1}s",
+        t_build.elapsed().as_secs_f64()
+    );
 
     // --- validation dump mode ---
     if let Some(dump_path) = dump_words {
         let dump_raw = std::fs::read_to_string(&dump_path).expect("cannot read dump words");
         let words: Vec<String> = dump_raw.lines().map(|l| l.to_string()).collect();
         // need word_type per word; look it up from gen_rows
-        let type_map: std::collections::HashMap<&str, &str> =
-            gen_rows.iter().map(|(w, t)| (w.as_str(), t.as_str())).collect();
+        let type_map: std::collections::HashMap<&str, &str> = gen_rows
+            .iter()
+            .map(|(w, t)| (w.as_str(), t.as_str()))
+            .collect();
         for w in &words {
             let wt = type_map.get(w.as_str()).copied().unwrap_or("other");
             let outs = generator.generate(w, wt);
@@ -131,6 +137,7 @@ fn main() {
         work.len(),
         t_gen.elapsed().as_secs_f64()
     );
+    #[cfg(feature = "stats")]
     {
         use std::sync::atomic::Ordering::Relaxed;
         let h = cache::HITS.load(Relaxed);
@@ -138,7 +145,10 @@ fn main() {
         let mn = cache::MATCH_NANOS.load(Relaxed) as f64 / 1e9;
         eprintln!(
             "  cache: {} hits, {} misses ({:.1}% hit) | matcher sum-across-threads {:.1}s",
-            h, m, 100.0 * h as f64 / (h + m).max(1) as f64, mn
+            h,
+            m,
+            100.0 * h as f64 / (h + m).max(1) as f64,
+            mn
         );
     }
 

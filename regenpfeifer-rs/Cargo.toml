@@ -4,9 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-serde_json = "1"
+serde_json = { version = "1", features = ["preserve_order"] }
 rayon = "1"
 rustc-hash = "2.1.2"
+
+[features]
+# Opt-in hit/miss/timing counters (adds an Instant::now() per cache miss). Off by
+# default so the production build has zero instrumentation overhead.
+stats = []
 
 [profile.release]
 opt-level = 3

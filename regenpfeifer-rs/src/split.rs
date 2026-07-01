@@ -96,8 +96,16 @@ impl SyllableSplitter {
 
     fn handle_v_extended(v: &str, i: usize, chars: &[char]) -> String {
         let mut v_new = v.to_string();
-        let z_minus_2 = if i > 1 { Self::ch(chars, i - 2) } else { String::new() };
-        let z_minus_3 = if i > 2 { Self::ch(chars, i - 3) } else { String::new() };
+        let z_minus_2 = if i > 1 {
+            Self::ch(chars, i - 2)
+        } else {
+            String::new()
+        };
+        let z_minus_3 = if i > 2 {
+            Self::ch(chars, i - 3)
+        } else {
+            String::new()
+        };
 
         let v_ext2 = format!("{z_minus_2}{v}");
         if Self::in_any(&v_ext2) {

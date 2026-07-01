@@ -5,8 +5,8 @@ const NEVER_EMP_PREFIXES: &[&str] = &["be", "ent", "er", "ver", "zer"];
 const DIPHTONGS: &[&str] = &["au", "äu", "eu", "ei", "ey", "ai", "ay"];
 const USUALLY_EMP_PREFIXES: &[&str] = &["dar", "da", "her", "hin", "vor", "zu"];
 const EMP_PREFIXES: &[&str] = &[
-    "ab", "an", "auf", "aus", "bei", "ein", "empor", "fort", "los", "mit", "nach", "nieder",
-    "weg", "weiter", "wieder",
+    "ab", "an", "auf", "aus", "bei", "ein", "empor", "fort", "los", "mit", "nach", "nieder", "weg",
+    "weiter", "wieder",
 ];
 const VOWELS: &[char] = &['a', 'e', 'i', 'o', 'u', 'ä', 'ö', 'ü'];
 
