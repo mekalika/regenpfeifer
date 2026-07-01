@@ -15,10 +15,13 @@ Full 823k-word build:
 | Rust, optimized fixpoint | 12 | ~24s |
 | **Rust, transducer (default)** | 12 | **~6.1s** |
 
-~350× over the parallel Python on the same 12 cores. Output matches this repo's
-Python generator (`main`, with the #1 coverage fixes), identical except for a
-handful of pathological slash-bearing entries (`der/die/dasjenige`) where the
-Python emits redundant slash-boundary variants.
+~200× over the parallel Python (same-day A/B on the same 12 cores: 27.6 min vs
+7.8 s best-of-3; times vary with machine state, treat the table as ballpark).
+Output, on the full 823,381-word wortformliste: the fixed Python generator emits
+891,951 entries; regen-rs reproduces 891,945 of them exactly. The 6 missing are
+redundant double-slash variants of the two slash-bearing word-list entries
+(`der/die/dasjenige`, `der/die/dasselbige`) — each contains an empty stroke,
+which Plover cannot write. 0 entries differ in value; 0 are Rust-only.
 
 ## Algorithm
 
@@ -55,4 +58,6 @@ python3 test/validate.py /tmp/dump.tsv
 
 `test/regen_reference.json` is the fixed Python generator's output for the same 3000
 words, regenerated in-repo with `python3 test/make_reference.py data/wortformliste.csv`.
-A 100% shortest-outline match is expected (validate.py exits non-zero otherwise).
+A 100% outline-set match is expected (validate.py exits non-zero otherwise; sets, not
+lists, because the Python's alternate ordering varies with the hash seed and intra-word
+order cannot change the assembled dictionary).

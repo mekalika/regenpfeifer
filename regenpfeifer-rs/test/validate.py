@@ -36,26 +36,30 @@ with open(sys.argv[1], encoding="utf8") as f:
             dumped[word] = []
 
 total = 0
-exact = 0
+set_match = 0
 shortest_match = 0
 mismatches = []
 for word, ref_outlines in ref.items():
     total += 1
     got = dumped.get(word, [])
-    if got == ref_outlines:
-        exact += 1
+    # Order-insensitive: the Python's alternate ordering varies with hash seed,
+    # and a word's own outline order cannot change the assembled dictionary.
+    if set(got) == set(ref_outlines):
+        set_match += 1
+    elif len(mismatches) < 15:
+        only_ref = sorted(set(ref_outlines) - set(got))
+        only_got = sorted(set(got) - set(ref_outlines))
+        mismatches.append((word, only_ref, only_got))
     if shortest(got) == shortest(ref_outlines):
         shortest_match += 1
-    elif len(mismatches) < 15:
-        mismatches.append((word, shortest(ref_outlines), shortest(got)))
 
-print(f"exact outline-list match:    {exact}/{total} = {100.0 * exact / total:.3f}%")
+print(f"outline-set match:      {set_match}/{total} = {100.0 * set_match / total:.3f}%")
 print(
-    f"shortest-outline match:      {shortest_match}/{total}"
+    f"shortest-outline match: {shortest_match}/{total}"
     f" = {100.0 * shortest_match / total:.3f}%"
 )
 if mismatches:
-    print("First mismatches (word, ref_shortest, got_shortest):")
-    for word, ref_short, got_short in mismatches:
-        print(f"  {word!r}: ref={ref_short!r} got={got_short!r}")
-sys.exit(0 if shortest_match == total else 1)
+    print("First mismatches (word, only-in-reference, only-in-dump):")
+    for word, only_ref, only_got in mismatches:
+        print(f"  {word!r}: ref-only={only_ref[:4]} dump-only={only_got[:4]}")
+sys.exit(0 if set_match == total else 1)

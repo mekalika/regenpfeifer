@@ -62,25 +62,34 @@ fn main() {
     // --- read word list ---
     let t_read = Instant::now();
     let raw = std::fs::read_to_string(&wordlist).expect("cannot read word list");
+    // Every word is generated, like the Python; repeated words collapse the way
+    // the Python's OrderedDict does (first position kept, last type wins).
     let mut rows: Vec<(String, String)> = Vec::new();
+    let mut row_index: std::collections::HashMap<String, usize> = std::collections::HashMap::new();
     for line in raw.lines() {
         // split on first comma into word,type-rest (Python: line.split(','))
         let mut it = line.splitn(2, ',');
         if let (Some(w), Some(rest)) = (it.next(), it.next()) {
             // word_type = rest.split(' ')[0].replace('\n','')
             let wt = rest.split(' ').next().unwrap_or("").trim_end().to_string();
-            rows.push((w.to_string(), wt));
+            match row_index.get(w) {
+                Some(&i) => rows[i].1 = wt,
+                None => {
+                    row_index.insert(w.to_string(), rows.len());
+                    rows.push((w.to_string(), wt));
+                }
+            }
         }
     }
-    // words used by the trie AND generated: len(chars) > 3
-    let gen_rows: Vec<(String, String)> = rows
-        .into_iter()
+    // len>3 filters only the compound-split trie vocabulary, like the Python.
+    let trie_words: Vec<String> = rows
+        .iter()
         .filter(|(w, _)| w.chars().count() > 3)
+        .map(|(w, _)| w.clone())
         .collect();
-    let trie_words: Vec<String> = gen_rows.iter().map(|(w, _)| w.clone()).collect();
     eprintln!(
-        "read {} words (len>3) in {:.1}s",
-        gen_rows.len(),
+        "read {} words in {:.1}s",
+        rows.len(),
         t_read.elapsed().as_secs_f64()
     );
 
@@ -101,11 +110,9 @@ fn main() {
     if let Some(dump_path) = dump_words {
         let dump_raw = std::fs::read_to_string(&dump_path).expect("cannot read dump words");
         let words: Vec<String> = dump_raw.lines().map(|l| l.to_string()).collect();
-        // need word_type per word; look it up from gen_rows
-        let type_map: std::collections::HashMap<&str, &str> = gen_rows
-            .iter()
-            .map(|(w, t)| (w.as_str(), t.as_str()))
-            .collect();
+        // need word_type per word; look it up from rows
+        let type_map: std::collections::HashMap<&str, &str> =
+            rows.iter().map(|(w, t)| (w.as_str(), t.as_str())).collect();
         for w in &words {
             let wt = type_map.get(w.as_str()).copied().unwrap_or("other");
             let outs = generator.generate(w, wt);
@@ -116,9 +123,9 @@ fn main() {
 
     // --- generate in parallel ---
     let work: Vec<(String, String)> = if limit > 0 {
-        gen_rows.iter().take(limit).cloned().collect()
+        rows.iter().take(limit).cloned().collect()
     } else {
-        gen_rows.clone()
+        rows.clone()
     };
 
     let t_gen = Instant::now();
