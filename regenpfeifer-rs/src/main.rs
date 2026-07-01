@@ -140,15 +140,6 @@ fn main() {
             "  cache: {} hits, {} misses ({:.1}% hit) | matcher sum-across-threads {:.1}s",
             h, m, 100.0 * h as f64 / (h + m).max(1) as f64, mn
         );
-        #[cfg(feature = "instr")]
-        {
-            let it = cache::ITERS.load(Relaxed);
-            let ca = cache::CANDS.load(Relaxed);
-            eprintln!(
-                "  instr: {} fixpoint-iters, {} candidates processed ({:.1} cands/miss, {:.1} cands/iter)",
-                it, ca, ca as f64 / m.max(1) as f64, ca as f64 / it.max(1) as f64
-            );
-        }
     }
 
     // --- assemble dictionary: custom first, then first-wins dedup in word order ---

@@ -4,39 +4,9 @@
 //! `[...]` or (in split) lowercase runs are split per-character-run between
 //! brackets.
 
-/// Split a stroke into parts: each `[...]` is one part; any run of characters
-/// outside brackets is accumulated into one part (matching the Python char loop).
-pub fn split(stroke: &str) -> Vec<String> {
-    let mut parts = Vec::new();
-    let mut part = String::new();
-    for ch in stroke.chars() {
-        if ch == '[' {
-            if !part.is_empty() {
-                parts.push(std::mem::take(&mut part));
-            }
-            part.push('[');
-        } else if ch == ']' {
-            if !part.is_empty() {
-                part.push(ch);
-                parts.push(std::mem::take(&mut part));
-            }
-            // if part empty, Python resets to "" (a stray ']' is dropped)
-            part.clear();
-        } else {
-            part.push(ch);
-        }
-    }
-    if !part.is_empty() {
-        parts.push(part);
-    }
-    parts
-}
-
-pub fn join(parts: &[String]) -> String {
-    parts.concat()
-}
-
-/// Like `split`, but writes parts into `out`, reusing the `String` slots already in
+/// Like `split` (each `[...]` is one part; outside-bracket runs accumulate into one
+/// part, matching the Python char loop), but writes parts into `out`, reusing the
+/// `String` slots already in
 /// `out` (and its outer `Vec` capacity) across calls to avoid per-part allocation.
 /// `out` is logically reset (length set to the number of parts found); any extra
 /// pre-existing slots are dropped.
@@ -201,49 +171,6 @@ fn push_keys_strip_all_hyphens(part: &str, out: &mut String) {
     }
 }
 
-pub fn strip_unmatched_letters(matched: &str) -> String {
-    let mut out = String::with_capacity(matched.len());
-    let mut first_segment = true;
-    for stroke in matched.split('/') {
-        let mut stripped = String::new();
-        split_each(stroke, |part| {
-            if part.starts_with('[') {
-                stripped.push_str(part);
-            }
-        });
-        if !stripped.is_empty() {
-            if !first_segment {
-                out.push('/');
-            }
-            out.push_str(&stripped);
-            first_segment = false;
-        }
-    }
-    out
-}
-
-pub fn remove_excess_hyphens(stroke: &str) -> String {
-    if stroke.contains("[e|") || stroke.contains("[*]") {
-        return stroke.replace('-', "");
-    }
-    let parts = split(stroke);
-    let mut first_hyphen_seen = false;
-    let mut out = Vec::with_capacity(parts.len());
-    for part in parts {
-        if part.starts_with("[-") {
-            if !first_hyphen_seen {
-                first_hyphen_seen = true;
-                out.push(part);
-            } else {
-                out.push(part.replacen("[-", "[", 1));
-            }
-        } else {
-            out.push(part);
-        }
-    }
-    join(&out)
-}
-
 // --- asterisk repositioning ---
 
 const BEFORE_ASTERISK: &str = "ZSTKPWHRAO";
@@ -320,20 +247,6 @@ fn insert_asterisk(stroke: &str, index: Option<usize>) -> String {
 const LEFT_KEYS: &[char] = &['Z', 'S', 'T', 'K', 'P', 'W', 'H', 'R'];
 const VOWEL_KEYS: &[char] = &['A', 'O', '*', 'E', 'U'];
 const RIGHT_KEYS: &[char] = &['-', 'F', 'R', 'P', 'B', 'L', 'G', 'T', 'S', 'D', 'Z'];
-
-/// Equivalent to `validate(strip_unmatched_letters(g))` but without allocating the
-/// stripped intermediate string. `strip_unmatched_letters` keeps, per `/`-segment,
-/// only the bracketed parts, and drops segments that end up empty; `validate` then
-/// validates each remaining stroke. Here we walk each segment, collect its bracketed
-/// parts into a reused scratch buffer, and validate that (skipping empty segments).
-pub fn validate_stripped(g: &str) -> bool {
-    for segment in g.split('/') {
-        if !validate_segment_stripped(segment) {
-            return false;
-        }
-    }
-    true
-}
 
 /// Validate a candidate held as a list of already-split `parts` (no '/' present —
 /// within `match_word` a candidate is a single stroke), as if
@@ -459,26 +372,6 @@ impl SegState {
         }
         !(self.passed_vowel && self.right_before_vowel)
     }
-}
-
-/// Validate one `/`-segment as if `strip_unmatched_letters` (keep only bracketed
-/// parts, drop the segment if it ends up empty) then `validate` (strip ALL '*',
-/// then `validate_stroke`) had been applied — but allocation-free, in one pass over
-/// the segment's parts.
-fn validate_segment_stripped(segment: &str) -> bool {
-    let mut st = SegState::new();
-    let mut ok = true;
-    let mut early_false = false;
-    split_each(segment, |part| {
-        if early_false {
-            return;
-        }
-        if !st.push_token(part) {
-            ok = false;
-            early_false = true;
-        }
-    });
-    ok && st.finish()
 }
 
 pub fn validate(strokes: &str) -> bool {
@@ -624,40 +517,3 @@ fn consume_inner_keys_nostar(part: &str, keys: &[char], cur: &mut usize) -> bool
     true
 }
 
-/// Push the inner key letters of a bracketed part into `buf`.
-/// Parts look like `[X]`, `[-X]`, `[e|X]`, or `[*]`. We want just the letters:
-/// strip the leading `[`, an optional `-` or `e|`, and the trailing `]`.
-#[inline]
-fn push_inner_keys(part: &str, buf: &mut Vec<char>) {
-    // strip surrounding [ ]
-    let inner = part
-        .strip_prefix('[')
-        .and_then(|s| s.strip_suffix(']'))
-        .unwrap_or(part);
-    if let Some(rest) = inner.strip_prefix("e|") {
-        buf.extend(rest.chars());
-    } else {
-        // inner may be "-X" (hyphen) or "*" or "X"; keep all chars (incl '-')
-        buf.extend(inner.chars());
-    }
-}
-
-fn keys_in_order(seq: &[char], keys: &[char]) -> bool {
-    let mut key_index = 0usize;
-    for &sk in seq {
-        let mut matched = false;
-        let mut i = key_index;
-        while i < keys.len() {
-            if sk == keys[i] {
-                key_index = i + 1;
-                matched = true;
-                break;
-            }
-            i += 1;
-        }
-        if !matched {
-            return false;
-        }
-    }
-    true
-}

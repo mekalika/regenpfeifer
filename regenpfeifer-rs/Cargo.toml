@@ -3,14 +3,10 @@ name = "regen-rs"
 version = "0.1.0"
 edition = "2021"
 
-[features]
-instr = []
-
 [dependencies]
 serde_json = "1"
 rayon = "1"
 rustc-hash = "2.1.2"
-aho-corasick = "1.1.4"
 
 [profile.release]
 opt-level = 3

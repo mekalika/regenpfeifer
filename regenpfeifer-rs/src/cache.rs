@@ -60,8 +60,3 @@ impl MatchCache {
             .clone()
     }
 }
-
-#[cfg(feature = "instr")]
-pub static ITERS: AtomicU64 = AtomicU64::new(0);
-#[cfg(feature = "instr")]
-pub static CANDS: AtomicU64 = AtomicU64::new(0);
