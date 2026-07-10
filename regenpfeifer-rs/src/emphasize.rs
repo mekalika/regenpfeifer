@@ -57,10 +57,10 @@ impl Emphasizer {
     }
 
     fn get_usually_emp_prefix(word: &str) -> &'static str {
-        // Python keeps the LAST matching prefix (loop overwrites).
+        // Longest match wins ("dar" must beat "da" for daran).
         let mut matched = "";
         for p in USUALLY_EMP_PREFIXES {
-            if word.starts_with(p) {
+            if word.starts_with(p) && p.len() > matched.len() {
                 matched = p;
             }
         }
@@ -85,15 +85,17 @@ impl Emphasizer {
                 return Self::emp_vowel(&word);
             }
             if word.starts_with(never) {
+                // Strip only the first matching prefix (beerdigen keeps its be).
                 matched_never_emp_prefix = never.to_string();
                 word = Self::strip_prefix_once(&word, never);
+                break;
             }
         }
 
         for diph in DIPHTONGS {
             if word.contains(diph) {
-                // Python str.replace replaces ALL occurrences.
-                let replaced = word.replace(diph, &format!("[e|{diph}]"));
+                // Mark only the first occurrence (aufbauen gets ONE stress).
+                let replaced = word.replacen(diph, &format!("[e|{diph}]"), 1);
                 return format!("{matched_never_emp_prefix}{replaced}");
             }
         }

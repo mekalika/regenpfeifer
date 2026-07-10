@@ -763,8 +763,8 @@
 "TKE/HREU/KAT/ES/SEPB"
 ],
 "Delikatessengeschäft": [
-"TKE/HREU/KAT/EFPB/TKPWE/SHAEFT",
 "TKE/HREU/KAT/ES/SEPB/TKPWE/SHAEFT",
+"TKE/HREU/KAT/EFPB/TKPWE/SHAEFT",
 "TKE/HREU/KATS/SEPB/TKPWE/SHAEFT"
 ],
 "Demonstrationsanlage": [
@@ -1476,6 +1476,7 @@
 "TKPWE/PWURTS/TAG/SAEUPB/HRA/TKUPB/TKPWEPB"
 ],
 "Geflirren": [
+"TKPWEF/HREURPB",
 "TKPWEF/HREUR/REPB"
 ],
 "Gefriertemperaturen": [
@@ -1744,6 +1745,7 @@
 "HA/REU/SKWRAPB/E"
 ],
 "Harnsperren": [
+"HARPB/SPERPB",
 "HARPB/SPER/REPB"
 ],
 "Haselnusskerne": [
@@ -1812,7 +1814,9 @@
 "Herausstellungen": [
 "HER/AUS/TEL/HRUPB/TKPWEPB"
 ],
-"Herbstveranstaltungen": [],
+"Herbstveranstaltungen": [
+"HEFRBT/SRER/APBS/TAL/TUPB/TKPWEPB"
+],
 "Heroinabgabe": [],
 "Herstellungstechnike": [
 "HERS/TEL/HRUPBGS/TEFP/TPHEU/KE"
@@ -2349,11 +2353,14 @@
 "KOPB/SKWRUPBG/TUR/TAL"
 ],
 "Konkurrenzhafen": [
+"KOPB/KURPBZ/HAFPB",
 "KOPB/KUR/REPBZ/HAFPB",
+"KOPB/KURPBZ/HA/TPEPB",
 "KOPB/KUR/REPBZ/HA/TPEPB"
 ],
 "Konkurrenzkanale": [],
 "Konkurrenzmagazin": [
+"KOPB/KURPBZ/PHA/TKPWA/ZEUPB",
 "KOPB/KUR/REPBZ/PHA/TKPWA/ZEUPB"
 ],
 "Konschale": [
@@ -3218,6 +3225,7 @@
 "POFT/TKPWUT"
 ],
 "Postkonkurrente": [
+"POFT/KOPB/KURPB/TE",
 "POFT/KOPB/KUR/REPB/TE"
 ],
 "Postplatz": [
@@ -4091,7 +4099,10 @@
 "Strafrechtsänderungen": [
 "STRA/TPREFPT/SAEPB/TKER/UPB/TKPWEPB"
 ],
-"Strafsteuerne": [],
+"Strafsteuerne": [
+"STRA*FT/OEUR/TPHE",
+"STRA*FT/OEU/ER/TPHE"
+],
 "Straßenbahnlinien": [
 "STRA/SEPB/PWAPB/HREU/TPHAOEUPB"
 ],
@@ -4497,7 +4508,9 @@
 "Variolation": [
 "SRA/REU/O/HRA/TEU/OPB"
 ],
-"Vaterherrschaft": [],
+"Vaterherrschaft": [
+"SRA/TER/HER/SHAFT"
+],
 "Verbalen": [
 "SRER/PWAPBL",
 "SRER/PWA/HREPB"
@@ -4728,6 +4741,7 @@
 "WE/TKPWHRAS/SPRO/PWEPB"
 ],
 "Wegsperren": [
+"WEG/SPERPB",
 "WEG/SPER/REPB"
 ],
 "Weindegustation": [
@@ -5265,6 +5279,7 @@
 "AUS/SHAEUFBT"
 ],
 "ausschirren": [
+"AUS/SHEURPB",
 "AUS/SHEUR/REPB"
 ],
 "ausschwimmtet": [
@@ -5274,6 +5289,7 @@
 "AUS/SPREFP/PWARS/TE"
 ],
 "austräumst": [
+"AUS/TROEUFPLT",
 "AUS/TROEUFPLT"
 ],
 "ausweitend": [
@@ -5656,6 +5672,7 @@
 "TKAE/TPHEU/SHEPL"
 ],
 "dürres": [
+"TKOURS",
 "TKOUR/RES"
 ],
 "ebenbürtigsten": [
@@ -5851,14 +5868,18 @@
 "erbreche": [
 "ER/PWRE/KHE"
 ],
-"ererbst": [],
+"ererbst": [
+"ER/EFRBT"
+],
 "erfindlich": [
 "ER/TPEUPBD/HREUFP"
 ],
 "erfolgsbezogtet": [
 "ER/TPOLGS/PWE/ZOG/TET"
 ],
-"erfolgsträchtigem": [],
+"erfolgsträchtigem": [
+"ER/TPOFLGT/RAEFP/TEU/TKPWEPL"
+],
 "erforschbar": [],
 "erholen": [
 "ER/HOPBL",
@@ -6204,6 +6225,7 @@
 "TKPWE/SET/ZES/TPRAEU"
 ],
 "gesimst": [
+"TKPWE/SEUFPLT",
 "TKPWE/SEUFPLT"
 ],
 "gesprächstherapeutischer": [
@@ -6591,6 +6613,7 @@
 "KA/PEU/TAL/PWEUL/TKEPB/TKE"
 ],
 "karren": [
+"KARPB",
 "KAR/REPB"
 ],
 "kartierten": [
@@ -7132,7 +7155,10 @@
 "nichtvorhandete": [
 "TPHEUFPT/SROR/HAPB/TKE/TE"
 ],
-"niedersenkst": [],
+"niedersenkst": [
+"TPHAOEURD/SEFPBGT",
+"TPHAOEU/TKER/SEFPBGT"
+],
 "niederösterreichischer": [
 "TPHAOEURD/OES/TER/RAEU/KHEU/SHER",
 "TPHAOEU/TKER/OES/TER/RAEU/KHEU/SHER"
@@ -7663,7 +7689,9 @@
 "STPHEUTZ/TE"
 ],
 "schnuckeligstem": [],
-"schnurrtet": [],
+"schnurrtet": [
+"STPHUR/TET"
+],
 "schnörkeligen": [
 "STPHOER/KE/HREUPBG",
 "STPHOER/KE/HREU/TKPWEPB"
@@ -8254,6 +8282,7 @@
 "U/TPHUPLS/TOES/HREUFP/E"
 ],
 "unvoreingenommst": [
+"UPB/SRO/RAEUPB/TKPWE/TPHOFPLT",
 "UPB/SRO/RAEUPB/TKPWE/TPHOFPLT"
 ],
 "unweiblichstem": [
@@ -8324,7 +8353,9 @@
 "SRER/HAEU/RA/TETS",
 "SRER/HAEU/RA/TE/TES"
 ],
-"verirrt": [],
+"verirrt": [
+"SRER/EURT"
+],
 "veristischer": [
 "SRER/EUS/TEU/SHER"
 ],
@@ -8416,7 +8447,9 @@
 "verunfallte": [
 "SRER/UPB/TPAL/TE"
 ],
-"verwirrlichem": [],
+"verwirrlichem": [
+"SRER/WEUR/HREU/KHEPL"
+],
 "verzechenem": [
 "SRER/ZE/KHEPBL",
 "SRER/ZE/KHE/TPHEPL"
@@ -8543,6 +8576,8 @@
 "WAFPS/TUPL/SPO/HREU/TEU/SHES"
 ],
 "waffenstarrenden": [
+"WAFPBS/TARPB/TKEPB",
+"WAF/TPEPBS/TARPB/TKEPB",
 "WAFPBS/TAR/REPB/TKEPB",
 "WAF/TPEPBS/TAR/REPB/TKEPB"
 ],
@@ -8568,6 +8603,7 @@
 "WAR/PHA/KHEPBS/TES"
 ],
 "wahrnahmst": [
+"WAR/TPHAFPLT",
 "WAR/TPHAFPLT"
 ],
 "wahrsagend": [

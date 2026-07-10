@@ -17,8 +17,9 @@ Full 823k-word build:
 
 ~200× over the parallel Python (same-day A/B on the same 12 cores: 27.6 min vs
 7.8 s best-of-3; times vary with machine state, treat the table as ballpark).
-Output, on the full 823,381-word wortformliste: the fixed Python generator emits
-891,951 entries; regen-rs reproduces 891,945 of them exactly. The 6 missing are
+Output, on the full 823,381-word wortformliste (upstream main after #4/#5): the
+Python generator emits 897,130 entries; regen-rs reproduces 897,124 of them exactly.
+The 6 missing are
 redundant double-slash variants of the two slash-bearing word-list entries
 (`der/die/dasjenige`, `der/die/dasselbige`) — each contains an empty stroke,
 which Plover cannot write. 0 entries differ in value; 0 are Rust-only.
