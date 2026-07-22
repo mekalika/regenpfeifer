@@ -2,7 +2,9 @@
 "Abba": [
 "AB/PWA"
 ],
-"Abbruchmaterial": [],
+"Abbruchmaterial": [
+"AB/PWRUFP/PHA/TE/REU/AL"
+],
 "Abendmahlsbrot": [
 "A/PWEPBD/PHALS/PWROT"
 ],
@@ -23,8 +25,8 @@
 "A/PWEU/TU/RAOEUPBT/E"
 ],
 "Ablenkungsmanöver": [
-"A/PWHREPB/KUPBGS/PHAPB/OEFR",
-"A/PWHREPB/KUPBGS/PHAPB/OE/SRER"
+"A/PWHREPB/KUPBGS/PHA/TPHOEFR",
+"A/PWHREPB/KUPBGS/PHA/TPHOE/SRER"
 ],
 "Abortanlage": [
 "A/PWOR/TAPB/HRAG/E"
@@ -34,7 +36,7 @@
 ],
 "Abrüstungskonferenzen": [
 "A/PWROUS/TUPBGS/KOPB/TPERPBZ/EPB",
-"A/PWROUS/TUPBGS/KOPB/TPER/EPBZ/EPB"
+"A/PWROUS/TUPBGS/KOPB/TPE/REPBZ/EPB"
 ],
 "Absatzmöglichkeit": [
 "AB/SATS/PHOE/TKPWHREUFP/KAEUT",
@@ -45,7 +47,7 @@
 "AB/SATZ/ROUBG/TKPWAPBG"
 ],
 "Abstimmungsmaschinerie": [
-"ABS/TEUPL/PHUPBGS/PHA/SHEU/TPHER/AOEU"
+"ABS/TEUPL/PHUPBGS/PHA/SHEU/TPHE/RAOEU"
 ],
 "Abstützungen": [
 "ABS/TOUT/ZUPB/TKPWEPB"
@@ -58,13 +60,14 @@
 "Abwicklungsstellen": [],
 "Achsensymmetrien": [],
 "Adenauerhaus": [
-"A/TKE/TPHAUR/HAUS"
+"A/TKE/TPHAUR/HAUS",
+"A/TKE/TPHAU/ER/HAUS"
 ],
 "Adventskirche": [
 "AD/SREPBTS/KEUR/KHE"
 ],
 "Aerosalone": [
-"AR/O/SA/HRO/TPHE"
+"A/E/RO/SA/HRO/TPHE"
 ],
 "Agglutinationen": [
 "AG/TKPWHRU/TEU/TPHA/TEU/OPB/EPB"
@@ -86,7 +89,7 @@
 "ABG/TEU/OPB/SOR/TE"
 ],
 "Alberei": [
-"AL/PWER/AEU"
+"AL/PWE/RAEU"
 ],
 "Allrounderinnen": [],
 "Alltag": [
@@ -102,7 +105,9 @@
 "Amateurnationalmannschaft": [
 "A/PHA/TOEUR/TPHA/TEU/O/TPHAL/PHAPB/SHAFT"
 ],
-"Amateurvideos": [],
+"Amateurvideos": [
+"A/PHA/TOEUR/SREU/TKE/OS"
+],
 "Ampelsenate": [
 "APL/PEL/SE/TPHA/TE"
 ],
@@ -160,15 +165,15 @@
 "AR/PWAEU/TER/PAR/TAEU/EPB"
 ],
 "Arbeiterveteran": [
-"AR/PWAEU/TER/SRE/TER/APB"
+"AR/PWAEU/TER/SRE/TE/RAPB"
 ],
 "Arbeitnehmerdelegation": [
 "AR/PWAEUT/TPHE/PHER/TKE/HRE/TKPWA/TEU/OPB"
 ],
 "Arbeitnehmerinteressen": [
-"AR/PWAEUT/TPHE/PHER/EUPB/TER/EFPB",
-"AR/PWAEUT/TPHE/PHER/EUPB/TERS/SEPB",
-"AR/PWAEUT/TPHE/PHER/EUPB/TER/ES/SEPB"
+"AR/PWAEUT/TPHE/PHE/REUPB/TE/REFPB",
+"AR/PWAEUT/TPHE/PHE/REUPB/TERS/SEPB",
+"AR/PWAEUT/TPHE/PHE/REUPB/TE/RES/SEPB"
 ],
 "Arbeitsaufgaben": [
 "AR/PWAEUT/SAUF/TKPWA/PWEPB"
@@ -194,7 +199,7 @@
 "AR/KHEU/TEBG/TURP/RAEU/SE"
 ],
 "Archivleiterinnen": [
-"AR/KHEUF/HRAEU/TER/EUPB/TPHEPB"
+"AR/KHEUF/HRAEU/TE/REUPB/TPHEPB"
 ],
 "Armgelenke": [
 "ARPL/TKPWEPBL/KE",
@@ -247,18 +252,20 @@
 "AUPBGD/RUBG",
 "AU/TKPWEPBD/RUBG"
 ],
-"Ausbildungsplatzinitiative": [],
+"Ausbildungsplatzinitiative": [
+"AUS/PWEUL/TKUPBGS/PHRAT/ZEU/TPHEU/TEU/A/TEU/SRE"
+],
 "Ausbruchsherde": [
 "AUS/PWRUFPS/HER/TKE"
 ],
 "Ausfilterungen": [
-"AUS/TPEUL/TER/UPB/TKPWEPB"
+"AUS/TPEUL/TE/RUPB/TKPWEPB"
 ],
 "Ausgabenzuwachs": [
 "AUS/TKPWA/PWEPB/ZU/WAFPS"
 ],
 "Ausgleichsforderungen": [
-"AUS/TKPWHRAEUFPS/TPOR/TKER/UPB/TKPWEPB"
+"AUS/TKPWHRAEUFPS/TPOR/TKE/RUPB/TKPWEPB"
 ],
 "Ausgleichskasse": [
 "AUS/TKPWHRAEUFPS/KAS/SE"
@@ -277,8 +284,8 @@
 "AUS/HRAEPB/TKER/PO/HREU/TEUBG"
 ],
 "Ausländerübergänge": [
-"AUS/HRAEPB/TKER/OURB/TKPWAEPB/TKPWE",
-"AUS/HRAEPB/TKER/OU/PWER/TKPWAEPB/TKPWE"
+"AUS/HRAEPB/TKE/ROURB/TKPWAEPB/TKPWE",
+"AUS/HRAEPB/TKE/ROU/PWER/TKPWAEPB/TKPWE"
 ],
 "Ausmergelungen": [
 "AUS/PHER/TKPWE/HRUPB/TKPWEPB"
@@ -287,7 +294,7 @@
 "AUS/TPHA/PHAOER/HRAUB/TPHEUS"
 ],
 "Ausnahmesportlerinnen": [
-"AUS/TPHA/PHE/SPORT/HRER/EUPB/TPHEPB"
+"AUS/TPHA/PHE/SPORT/HRE/REUPB/TPHEPB"
 ],
 "Aussiedlerwohnheim": [
 "AUS/SAOEUD/HRER/WOPB/HAEUPL"
@@ -322,8 +329,8 @@
 "AU/SEPBD/RE"
 ],
 "Außentemperaturen": [
-"AU/SEPB/TEPL/PER/A/TURPB",
-"AU/SEPB/TEPL/PER/A/TU/REPB"
+"AU/SEPB/TEPL/PE/RA/TURPB",
+"AU/SEPB/TEPL/PE/RA/TU/REPB"
 ],
 "Außenwirtschaftskonzept": [
 "AU/SEPB/WEURT/SHAFTS/KOPB/ZEPT"
@@ -333,12 +340,14 @@
 "Babyöl": [
 "PWAB/KWROEL"
 ],
-"Backbeate": [],
+"Backbeate": [
+"PWABG/PWE/A/TE"
+],
 "Badebecken": [
 "PWA/TKE/PWEBG/EPB"
 ],
 "Bahnarbeiterin": [
-"PWA/TPHAR/PWAEU/TER/EUPB"
+"PWA/TPHAR/PWAEU/TE/REUPB"
 ],
 "Bahnhofsanlagen": [
 "PWAPB/HOF/SAPB/HRAPBG",
@@ -358,14 +367,18 @@
 "Barockstuhle": [
 "PWA/ROBG/STU/HRE"
 ],
-"Basisqualifikationen": [],
+"Basisqualifikationen": [
+"PWA/SEUS/KWU/A/HREU/TPEU/KA/TEU/OPB/EPB"
+],
 "Basset": [
 "PWAS/SET"
 ],
 "Batteriebetriebe": [
-"PWAT/TER/AOEU/PWE/TRAOEU/PWE"
+"PWAT/TE/RAOEU/PWE/TRAOEU/PWE"
 ],
-"Bauarbeitnehmer": [],
+"Bauarbeitnehmer": [
+"PWAU/AR/PWAEUT/TPHE/PHER"
+],
 "Bauführer": [
 "PWAU/TPOU/RER"
 ],
@@ -400,7 +413,9 @@
 "PWAU/WA/TKPWEPB/TKPWE/SETS",
 "PWAU/WA/TKPWEPB/TKPWE/SETZ"
 ],
-"Beamtenstellungen": [],
+"Beamtenstellungen": [
+"PWE/APLT/EPBS/TEL/HRUPB/TKPWEPB"
+],
 "Beckenknochen": [],
 "Bedienungsmannschaft": [
 "PWE/TKAOEU/TPHUPBGS/PHAPB/SHAFT"
@@ -453,27 +468,27 @@
 "PWE/TPHE/TKEUBG/TE"
 ],
 "Beratungsprogramm": [
-"PWER/A/TUPBG/SPRO/TKPWRAPL"
+"PWE/RA/TUPBG/SPRO/TKPWRAPL"
 ],
 "Berechtigungsausweis": [
-"PWER/EFP/TEU/TKPWUPBG/SAUS/WAEUS"
+"PWE/REFP/TEU/TKPWUPBG/SAUS/WAEUS"
 ],
 "Berginneren": [
 "PWER/TKPWEUPB/TPHERPB",
-"PWER/TKPWEUPB/TPHER/EPB"
+"PWER/TKPWEUPB/TPHE/REPB"
 ],
 "Berichtsgebiete": [
-"PWER/EUFPTS/TKPWE/PWAOEU/TE"
+"PWE/REUFPTS/TKPWE/PWAOEU/TE"
 ],
 "Berichtsperioden": [
-"PWER/EUFPT/SPER/EU/O/TKEPB"
+"PWE/REUFPT/SPE/REU/O/TKEPB"
 ],
 "Berufsausbildungszentrume": [
-"PWER/UF/SAUS/PWEUL/TKUPBGS/ZEPB/TRU/PHE"
+"PWE/RUF/SAUS/PWEUL/TKUPBGS/ZEPB/TRU/PHE"
 ],
 "Berufsstrukturen": [
-"PWER/UFS/TRUBG/TURPB",
-"PWER/UFS/TRUBG/TU/REPB"
+"PWE/RUFS/TRUBG/TURPB",
+"PWE/RUFS/TRUBG/TU/REPB"
 ],
 "Beschaffungsprojekte": [
 "PWE/SHAF/TPUPBG/SPRO/SKWREBG/TE"
@@ -637,7 +652,9 @@
 "PWUPB/TKES/TPAFP/SHUPBL",
 "PWUPB/TKES/TPAFP/SHU/HREPB"
 ],
-"Bundestagsabgeordneter": [],
+"Bundestagsabgeordneter": [
+"PWUPB/TKES/TAG/SAB/TKPWE/ORD/TPHE/TER"
+],
 "Bundeswehrskandale": [
 "PWUPB/TKES/WERS/KAPB/TKA/HRE"
 ],
@@ -691,7 +708,9 @@
 "Charlottengrade": [
 "KHAR/HROT/TEPB/TKPWRA/TKE"
 ],
-"Chefideologinnen": [],
+"Chefideologinnen": [
+"KHE/TPEU/TKE/O/HRO/TKPWEUPB/TPHEPB"
+],
 "Chefredakteursposten": [
 "KHE/TPRE/TKABG/TOEUR/SPOS/TEPB"
 ],
@@ -709,7 +728,9 @@
 "Christbaumkugel": [
 "KHREUFT/PWAUPL/KU/TKPWEL"
 ],
-"Coeur": [],
+"Coeur": [
+"KO/OEUR"
+],
 "Colchicinnen": [
 "KOL/KHEU/KEUPB/TPHEPB"
 ],
@@ -747,7 +768,8 @@
 "TKA/TEPB/PHOUL"
 ],
 "Dauerversuch": [
-"TKAUR/SRER/SUFP"
+"TKAUR/SRER/SUFP",
+"TKAU/ER/SRER/SUFP"
 ],
 "Daumenbreiten": [
 "TKAUPBL/PWRAEU/TEPB",
@@ -756,16 +778,18 @@
 "Deicher": [
 "TKAEU/KHER"
 ],
-"Dekomaterial": [],
+"Dekomaterial": [
+"TKE/KO/PHA/TE/REU/AL"
+],
 "Delikatessen": [
 "TKE/HREU/KAT/EFPB",
 "TKE/HREU/KATS/SEPB",
 "TKE/HREU/KAT/ES/SEPB"
 ],
 "Delikatessengeschäft": [
-"TKE/HREU/KAT/ES/SEPB/TKPWE/SHAEFT",
 "TKE/HREU/KAT/EFPB/TKPWE/SHAEFT",
-"TKE/HREU/KATS/SEPB/TKPWE/SHAEFT"
+"TKE/HREU/KATS/SEPB/TKPWE/SHAEFT",
+"TKE/HREU/KAT/ES/SEPB/TKPWE/SHAEFT"
 ],
 "Demonstrationsanlage": [
 "TKE/PHOPBS/TRA/TEU/OPB/SAPB/HRA/TKPWE"
@@ -797,7 +821,11 @@
 "Dezernentenstelle": [
 "TKE/ZER/TPHEPB/TEPBS/TEL/HRE"
 ],
-"Diabeteszentrume": [],
+"Diabeteszentrume": [
+"TKEU/ABTS/ZEPB/TRU/PHE",
+"TKEU/A/PWETS/ZEPB/TRU/PHE",
+"TKEU/A/PWE/TES/ZEPB/TRU/PHE"
+],
 "Dienstjubiläume": [
 "TKAOEUFPBT/SKWRU/PWEU/HROEU/PHE"
 ],
@@ -865,8 +893,7 @@
 "Drogendelirium": [],
 "Droseren": [
 "TKRO/SERPB",
-"TKROFR/EPB",
-"TKRO/SER/EPB"
+"TKRO/SE/REPB"
 ],
 "Drucker": [],
 "Dryase": [],
@@ -880,8 +907,8 @@
 "TKUPB/KEL/TPELD"
 ],
 "Durchschnittstemperaturen": [
-"TKUFRPB/STPHEUTS/TEPL/PER/A/TURPB",
-"TKUFRPB/STPHEUTS/TEPL/PER/A/TU/REPB"
+"TKUFRPB/STPHEUTS/TEPL/PE/RA/TURPB",
+"TKUFRPB/STPHEUTS/TEPL/PE/RA/TU/REPB"
 ],
 "Duxe": [
 "TKU/KPE"
@@ -958,7 +985,7 @@
 "AEUPB/KAUFS/HRAEU/TER"
 ],
 "Einnahmerückgang": [
-"AEUPB/TPHA/PHER/OUBG/TKPWAPBG"
+"AEUPB/TPHA/PHE/ROUBG/TKPWAPBG"
 ],
 "Einordungen": [
 "AEU/TPHOR/TKUPB/TKPWEPB"
@@ -969,7 +996,7 @@
 "AEUPB/TREUT/SAEUPB/TPHA/PHEPB"
 ],
 "Einwandererviertel": [
-"AEUPB/WAPB/TKER/ER/SRAOEUR/TEL"
+"AEUPB/WAPB/TKE/RER/SRAOEUR/TEL"
 ],
 "Einzeldarbietung": [
 "AEUPB/ZEL/TKAR/PWAOEU/TUPBG"
@@ -990,19 +1017,20 @@
 "AEU/SEPB/TRAE/TKPWER"
 ],
 "Eisschnellläuferin": [
-"AEURB/TPHEL/HROEUFR/EUPB",
-"AEURB/TPHEL/HROEU/TPER/EUPB"
+"AEURB/TPHEL/HROEU/TPE/REUPB"
 ],
 "Eiswaffel": [
 "AEUS/WAF/TPEL"
 ],
 "Eiweißsynthesen": [],
-"Eliteausbildung": [],
+"Eliteausbildung": [
+"E/HREU/TE/AUS/PWEUL/TKUPBG"
+],
 "Elternhilfen": [
 "EL/TERPB/HEUL/TPEPB"
 ],
 "Elternvereinigung": [
-"EL/TERPB/SRER/AEU/TPHEU/TKPWUPBG"
+"EL/TERPB/SRE/RAEU/TPHEU/TKPWUPBG"
 ],
 "Embryonenspenden": [],
 "Energieengpass": [],
@@ -1025,10 +1053,10 @@
 "EPB/TAEUG/TPHUPBGS/PWE/HOER/TKEPB"
 ],
 "Enterokokken": [
-"EPB/TER/O/KOBG/KEPB"
+"EPB/TE/RO/KOBG/KEPB"
 ],
 "Entlastungsgerinnen": [
-"EPBT/HRAS/TUPBGS/TKPWER/EUPB/TPHEPB"
+"EPBT/HRAS/TUPBGS/TKPWE/REUPB/TPHEPB"
 ],
 "Entlastungszug": [
 "EPBT/HRAS/TUPBGS/ZUG"
@@ -1157,7 +1185,7 @@
 "EBGS/TRE/PHEUS/TE/TPHER/HRAS"
 ],
 "Fabrikarbeiterin": [
-"TPA/PWREU/KAR/PWAEU/TER/EUPB"
+"TPA/PWREU/KAR/PWAEU/TE/REUPB"
 ],
 "Fabrikbetriebe": [
 "TPA/PWREUBG/PWE/TRAOEU/PWE"
@@ -1211,25 +1239,27 @@
 "TPAEU/TKPWEPB/KABG/TUS"
 ],
 "Feldgerichte": [
-"TPELD/TKPWER/EUFP/TE"
+"TPELD/TKPWE/REUFP/TE"
 ],
 "Felsenstadte": [
 "TPEL/SEPBS/TAD/TE"
 ],
 "Felssicherungsarbeit": [
-"TPELS/SEU/KHER/UPBG/SAR/PWAEUT"
+"TPELS/SEU/KHE/RUPBG/SAR/PWAEUT"
 ],
 "Fensterbank": [
 "TPEPBS/TER/PWAPBG"
 ],
 "Ferienrouten": [],
 "Ferienstimmungen": [
-"TPER/AOEUPBS/TEUPL/PHUPB/TKPWEPB"
+"TPE/RAOEUPBS/TEUPL/PHUPB/TKPWEPB"
 ],
 "Fernkursus": [
 "TPERPB/KUR/SUS"
 ],
-"Fernmeldeaufklärungen": [],
+"Fernmeldeaufklärungen": [
+"TPERPB/PHEL/TKE/AUF/KHRAE/RUPB/TKPWEPB"
+],
 "Fernmeldebataillon": [
 "TPERPB/PHEL/TKE/PWA/TAEUL/HROPB"
 ],
@@ -1276,10 +1306,12 @@
 "TPOEUR/PWOEBG/E",
 "TPOEU/ER/PWOEBG/E"
 ],
-"Feuertheater": [],
+"Feuertheater": [
+"TPOEURT/HE/A/TER",
+"TPOEU/ERT/HE/A/TER"
+],
 "Feuerungstechnik": [
-"TPOEUR/UPBGS/TEFP/TPHEUBG",
-"TPOEU/ER/UPBGS/TEFP/TPHEUBG"
+"TPOEU/E/RUPBGS/TEFP/TPHEUBG"
 ],
 "Fexe": [
 "TPE/KPE"
@@ -1312,7 +1344,7 @@
 "TPHRA/SHEPB/KEUPB/TKER"
 ],
 "Flechterin": [
-"TPHREFP/TER/EUPB"
+"TPHREFP/TE/REUPB"
 ],
 "Flohkinos": [
 "TPHRO/KEU/TPHOS"
@@ -1325,20 +1357,23 @@
 "TPHRO/REPB/TEU/TPHER"
 ],
 "Flussschifferinnen": [
-"TPHRUS/SHEUFR/EUPB/TPHEPB",
-"TPHRUS/SHEUF/TPER/EUPB/TPHEPB"
+"TPHRUS/SHEUF/TPE/REUPB/TPHEPB"
 ],
 "Flüchtlingsbericht": [
-"TPHROUFPT/HREUPBGS/PWER/EUFPT"
+"TPHROUFPT/HREUPBGS/PWE/REUFPT"
 ],
-"Flüchtlingshochkommissariate": [],
+"Flüchtlingshochkommissariate": [
+"TPHROUFPT/HREUPBGS/HOFP/KOPL/PHEUS/SA/REU/A/TE"
+],
 "Flügelspitze": [
 "TPHROU/TKPWEL/SPEUT/ZE"
 ],
 "Flüssigkeitshaushalte": [
 "TPHROUS/SEUG/KAEUTS/HAUS/HAL/TE"
 ],
-"Fondsinitiator": [],
+"Fondsinitiator": [
+"TPOPBD/SEU/TPHEU/TEU/A/TOR"
+],
 "Footballprofie": [],
 "Formanstieg": [
 "TPOR/PHAPBS/TAOEUG"
@@ -1347,25 +1382,27 @@
 "TPOR/SHUPBG/SAPLT"
 ],
 "Forschungsexperimente": [
-"TPOR/SHUPBG/SEBGS/PER/EUPBL/TE",
-"TPOR/SHUPBG/SEBGS/PER/EU/PHEPB/TE"
+"TPOR/SHUPBG/SEBGS/PE/REUPBL/TE",
+"TPOR/SHUPBG/SEBGS/PE/REU/PHEPB/TE"
 ],
 "Fortbestehen": [
 "TPORT/PWES/TE/HEPB"
 ],
 "Fotoexpress": [],
 "Franziskanerkloster": [
-"TPRAPB/ZEUS/KAPB/ER/KHROS/TER"
+"TPRAPB/ZEUS/KA/TPHER/KHROS/TER"
 ],
 "Frauengewände": [
 "TPRAU/EPB/TKPWE/WAEPB/TKE"
 ],
-"Frauenring": [],
+"Frauenring": [
+"TPRAU/EPB/REUPBG"
+],
 "Freilichtspiele": [
 "TPRAEU/HREUFPT/SPAOEU/HRE"
 ],
 "Freilichtveranstaltung": [
-"TPRAEU/HREUFPT/SRER/APBS/TAL/TUPBG"
+"TPRAEU/HREUFPT/SRE/RAPBS/TAL/TUPBG"
 ],
 "Freiluftrestauranten": [
 "TPRAEU/HRUF/TRES/TAU/RAPB/TEPB"
@@ -1421,18 +1458,17 @@
 "TPUS/PE/TKAL"
 ],
 "Föderationspläne": [
-"TPOERD/A/TEU/OPBS/PHRAE/TPHE",
-"TPOE/TKER/A/TEU/OPBS/PHRAE/TPHE"
+"TPOE/TKE/RA/TEU/OPBS/PHRAE/TPHE"
 ],
 "Föhnwinder": [
 "TPOEPB/WEUPB/TKER"
 ],
 "Förderinstrument": [
-"TPOER/TKER/EUPBS/TRUPBLT",
-"TPOER/TKER/EUPBS/TRU/PHEPBT"
+"TPOER/TKE/REUPBS/TRUPBLT",
+"TPOER/TKE/REUPBS/TRU/PHEPBT"
 ],
 "Förderungsverein": [
-"TPOER/TKER/UPBGS/SRER/AEUPB"
+"TPOER/TKE/RUPBGS/SRE/RAEUPB"
 ],
 "Füllworte": [
 "TPOUL/WOR/TE"
@@ -1464,10 +1500,10 @@
 "TKPWAS/SHUTZ/PHAS/KEPB"
 ],
 "Gauklerinnen": [
-"TKPWAU/KHRER/EUPB/TPHEPB"
+"TKPWAU/KHRE/REUPB/TPHEPB"
 ],
 "Gauweilereien": [
-"TKPWAU/WAEU/HRER/AEU/EPB"
+"TKPWAU/WAEU/HRE/RAEU/EPB"
 ],
 "Geburtsfehler": [
 "TKPWE/PWURTS/TPE/HRER"
@@ -1480,10 +1516,12 @@
 "TKPWEF/HREUR/REPB"
 ],
 "Gefriertemperaturen": [
-"TKPWE/TPRAOEUR/TEPL/PER/A/TURPB",
-"TKPWE/TPRAOEUR/TEPL/PER/A/TU/REPB"
+"TKPWE/TPRAOEUR/TEPL/PE/RA/TURPB",
+"TKPWE/TPRAOEUR/TEPL/PE/RA/TU/REPB"
 ],
-"Gefängnisbeamtin": [],
+"Gefängnisbeamtin": [
+"TKPWE/TPAEPBG/TPHEUS/PWE/APL/TEUPB"
+],
 "Gegendarstellungen": [
 "TKPWEPBG/TKARS/TEL/HRUPB/TKPWEPB",
 "TKPWE/TKPWEPB/TKARS/TEL/HRUPB/TKPWEPB"
@@ -1516,7 +1554,7 @@
 "TKPWE/HREPBGS/TOUBG"
 ],
 "Gemeindepflegerin": [
-"TKPWE/PHAEUPB/TK*EFP/HRE/TKPWER/EUPB"
+"TKPWE/PHAEUPB/TK*EFP/HRE/TKPWE/REUPB"
 ],
 "Gemeindewiesen": [
 "TKPWE/PHAEUPB/TKE/WAOEUFPB",
@@ -1537,11 +1575,15 @@
 "Genozide": [
 "TKPWE/TPHO/ZEU/TKE"
 ],
-"Georgisch": [],
+"Georgisch": [
+"TKPWE/OR/TKPWEURB"
+],
 "Gepäckaufgabe": [],
-"Geradeauslauf": [],
+"Geradeauslauf": [
+"TKPWE/RA/TKE/AUS/HRAUF"
+],
 "Gerbereien": [
-"TKPWER/PWER/AEU/EPB"
+"TKPWER/PWE/RAEU/EPB"
 ],
 "Gesamtanlagen": [
 "TKPWE/SAPL/TAPB/HRAPBG",
@@ -1595,7 +1637,9 @@
 "Gestellungsbefehle": [
 "TKPWES/TEL/HRUPBGS/PWE/TPE/HRE"
 ],
-"Gesundheitssituation": [],
+"Gesundheitssituation": [
+"TKPWE/SUPBD/HAEUTS/SEU/TU/A/TEU/OPB"
+],
 "Gesäße": [
 "TKPWE/SAE/SE"
 ],
@@ -1603,14 +1647,18 @@
 "TKPWE/TRAEU/TKEP/RO/TKUBG/TEU/OPB"
 ],
 "Getreideüberschuss": [],
-"Getriebeautomatik": [],
+"Getriebeautomatik": [
+"TKPWE/TRAOEU/PWE/AU/TO/PHA/TEUBG"
+],
 "Gewaltszene": [
 "TKPWE/WALTS/ZE/TPHE"
 ],
 "Gewaltverzichte": [
 "TKPWE/WALT/SRER/ZEUFP/TE"
 ],
-"Gewebearte": [],
+"Gewebearte": [
+"TKPWE/WE/PWE/AR/TE"
+],
 "Gewerkschaftsparteien": [
 "TKPWE/WERBG/SHAFT/SPAR/TAEU/EPB"
 ],
@@ -1630,11 +1678,10 @@
 "TKPWE/WOURZ/TPA/PWREUBG"
 ],
 "Gießenerin": [
-"TKPWAOEU/SE/TPHER/EUPB"
+"TKPWAOEU/SE/TPHE/REUPB"
 ],
 "Gießereibetrieb": [
-"TKPWAOEUFR/AEU/PWE/TRAOEUB",
-"TKPWAOEU/SER/AEU/PWE/TRAOEUB"
+"TKPWAOEU/SE/RAEU/PWE/TRAOEUB"
 ],
 "Gifteinleitungen": [
 "TKPWEUF/TAEUPB/HRAEU/TUPB/TKPWEPB"
@@ -1663,7 +1710,9 @@
 ],
 "Goldschrift": [],
 "Goldstaub": [],
-"Goliath": [],
+"Goliath": [
+"TKPWO/HREU/AT"
+],
 "Gourmetführer": [],
 "Grabbelkisten": [
 "TKPWRAB/PWEL/KEUS/TEPB"
@@ -1674,7 +1723,7 @@
 "Grafikzykluse": [],
 "Grenzgrundstücke": [],
 "Grenzorgane": [
-"TKPWREPB/ZOR/TKPWAPB/E"
+"TKPWREPB/ZOR/TKPWA/TPHE"
 ],
 "Grossüberbauungen": [],
 "Großhallen": [
@@ -1707,7 +1756,7 @@
 "TKPWUT/SA/TKPWE"
 ],
 "Gönnervereinigungen": [
-"TKPWOEPB/TPHER/SRER/AEU/TPHEU/TKPWUPB/TKPWEPB"
+"TKPWOEPB/TPHER/SRE/RAEU/TPHEU/TKPWUPB/TKPWEPB"
 ],
 "Habilitandinnen": [
 "HA/PWEU/HREU/TAPB/TKEUPB/TPHEPB"
@@ -1717,8 +1766,8 @@
 ],
 "Halbkranze": [],
 "Halbleiterelement": [
-"HABL/HRAEU/TER/E/HREPBLT",
-"HABL/HRAEU/TER/E/HRE/PHEPBT"
+"HABL/HRAEU/TE/RE/HREPBLT",
+"HABL/HRAEU/TE/RE/HRE/PHEPBT"
 ],
 "Halbprofie": [],
 "Halbseitenlähmungen": [
@@ -1742,7 +1791,7 @@
 "HAPB/SE/TKPAEUL"
 ],
 "Harijane": [
-"HA/REU/SKWRAPB/E"
+"HA/REU/SKWRA/TPHE"
 ],
 "Harnsperren": [
 "HARPB/SPERPB",
@@ -1755,7 +1804,7 @@
 "HAUP/TAFP/SEPB"
 ],
 "Hauptrednerin": [
-"HAUP/TRED/TPHER/EUPB"
+"HAUP/TRED/TPHE/REUPB"
 ],
 "Hauptschullehrer": [
 "HAUPT/SHUL/HRE/RER"
@@ -1766,7 +1815,9 @@
 "Hausfassaden": [
 "HAUS/TPAS/SA/TKEPB"
 ],
-"Hausfrauenverband": [],
+"Hausfrauenverband": [
+"HAUS/TPRAU/EPB/SRER/PWAPBD"
+],
 "Haushaltseinnahme": [
 "HAUS/HALT/SAEUPB/TPHA/PHE"
 ],
@@ -1790,7 +1841,9 @@
 ],
 "Hawaiihemd": [],
 "Heckleuchte": [],
-"Hegemonieansprüche": [],
+"Hegemonieansprüche": [
+"HE/TKPWE/PHO/TPHAOEU/APB/SPROU/KHE"
+],
 "Heilbarkeit": [
 "HAEUL/PWAR/KAEUT"
 ],
@@ -1815,7 +1868,7 @@
 "HER/AUS/TEL/HRUPB/TKPWEPB"
 ],
 "Herbstveranstaltungen": [
-"HEFRBT/SRER/APBS/TAL/TUPB/TKPWEPB"
+"HEFRBT/SRE/RAPBS/TAL/TUPB/TKPWEPB"
 ],
 "Heroinabgabe": [],
 "Herstellungstechnike": [
@@ -1853,7 +1906,7 @@
 "HEUR/TRAEU/TER"
 ],
 "Hisemane": [
-"HEU/SE/PHAPB/E"
+"HEU/SE/PHA/TPHE"
 ],
 "Hitzetage": [
 "HEUT/ZE/TA/TKPWE"
@@ -1908,7 +1961,7 @@
 "HO/TEL/TPAFPBG/RAF/TE"
 ],
 "Hungerödeme": [
-"HUPB/TKPWER/OE/TKE/PHE"
+"HUPB/TKPWE/ROE/TKE/PHE"
 ],
 "Häuserwand": [
 "HOEUFR/WAPBD",
@@ -1946,8 +1999,13 @@
 "Impulsprogramme": [
 "EUPL/PUL/SPRO/TKPWRAPL/PHE"
 ],
-"Industrieanlagen": [],
-"Industriearchitektur": [],
+"Industrieanlagen": [
+"EUPB/TKUS/TRAOEU/APB/HRAPBG",
+"EUPB/TKUS/TRAOEU/APB/HRA/TKPWEPB"
+],
+"Industriearchitektur": [
+"EUPB/TKUS/TRAOEU/AR/KHEU/TEBG/TUR"
+],
 "Industriefachwirt": [
 "EUPB/TKUS/TRAOEU/TPAFP/WEURT"
 ],
@@ -1974,7 +2032,7 @@
 "EUPB/HRAPBD/SAUF/TRAE/TKPWE"
 ],
 "Innentemperatur": [
-"EUPB/TPHEPB/TEPL/PER/A/TUR"
+"EUPB/TPHEPB/TEPL/PE/RA/TUR"
 ],
 "Insektenvertilgungsmittel": [
 "EUPB/SEBG/TEPB/SRER/TEUL/TKPWUPBGS/PHEUT/TEL"
@@ -1983,8 +2041,8 @@
 "EUPBS/ZE/TPHAOEU/RUPBGS/KOPB/ZEPT"
 ],
 "Interimsvereinbarung": [
-"EUPB/TER/EUFPL/SRER/AEUPB/PWA/RUPBG",
-"EUPB/TER/EUPLS/SRER/AEUPB/PWA/RUPBG"
+"EUPB/TER/EUFPL/SRE/RAEUPB/PWA/RUPBG",
+"EUPB/TER/EUPLS/SRE/RAEUPB/PWA/RUPBG"
 ],
 "Internetgeschäfte": [
 "EUPB/TERPBT/TKPWE/SHAEF/TE",
@@ -2017,8 +2075,8 @@
 "Jahresmedienkonferenzen": [
 "SKWRARS/PHE/TKAOEUPB/KOPB/TPERPB/ZEPB",
 "SKWRA/RES/PHE/TKAOEUPB/KOPB/TPERPB/ZEPB",
-"SKWRARS/PHE/TKAOEUPB/KOPB/TPER/EPB/ZEPB",
-"SKWRA/RES/PHE/TKAOEUPB/KOPB/TPER/EPB/ZEPB"
+"SKWRARS/PHE/TKAOEUPB/KOPB/TPE/REPB/ZEPB",
+"SKWRA/RES/PHE/TKAOEUPB/KOPB/TPE/REPB/ZEPB"
 ],
 "Jahrestreffen": [
 "SKWRARS/TREFPB",
@@ -2063,8 +2121,8 @@
 "SKWRU/TKO/ZEPB/TRUPL"
 ],
 "Jugendgemeinderätinnen": [
-"SKWRUPBGD/TKPWE/PHAEUPB/TKER/AE/TEUPB/TPHEPB",
-"SKWRU/TKPWEPBD/TKPWE/PHAEUPB/TKER/AE/TEUPB/TPHEPB"
+"SKWRUPBGD/TKPWE/PHAEUPB/TKE/RAE/TEUPB/TPHEPB",
+"SKWRU/TKPWEPBD/TKPWE/PHAEUPB/TKE/RAE/TEUPB/TPHEPB"
 ],
 "Jungscharkinder": [
 "SKWRUPBG/SHAR/KEUPB/TKER"
@@ -2079,29 +2137,29 @@
 "KA/PWEU/TPHEPB/SHEUF"
 ],
 "Kaffeerunde": [
-"KAF/TPAOER/UPB/TKE"
+"KAF/TPAOE/RUPB/TKE"
 ],
 "Kaisergalerien": [
-"KAEUFR/TKPWA/HRER/AOEUPB",
-"KAEU/SER/TKPWA/HRER/AOEUPB"
+"KAEUFR/TKPWA/HRE/RAOEUPB",
+"KAEU/SER/TKPWA/HRE/RAOEUPB"
 ],
 "Kalebassen": [
 "KA/HRE/PWAFPB",
 "KA/HRE/PWAS/SEPB"
 ],
 "Kalenderuhr": [
-"KAPBL/TKER/UR",
-"KA/HREPB/TKER/UR"
+"KAPBL/TKE/RUR",
+"KA/HREPB/TKE/RUR"
 ],
 "Kalilauge": [
 "KA/HREU/HRAU/TKPWE"
 ],
 "Kameraauge": [],
 "Kamerablicke": [
-"KA/PHER/A/PWHREUBG/E"
+"KA/PHE/RA/PWHREUBG/E"
 ],
 "Kameradschaftsgeisten": [
-"KA/PHER/AD/SHAFTS/TKPWAEUS/TEPB"
+"KA/PHE/RAD/SHAFTS/TKPWAEUS/TEPB"
 ],
 "Kaminholz": [
 "KA/PHEUPB/HOLZ"
@@ -2110,8 +2168,7 @@
 "KAPL/PHER/WA/HRE"
 ],
 "Kampagnelieferung": [
-"KAPL/PAG/TPHE/HRAOEUFR/UPBG",
-"KAPL/PAG/TPHE/HRAOEU/TPER/UPBG"
+"KAPL/PAG/TPHE/HRAOEU/TPE/RUPBG"
 ],
 "Kampfabschnitt": [],
 "Kampfeswillen": [
@@ -2134,7 +2191,7 @@
 "KA/PEU/TAEL/KHEPB"
 ],
 "Karmeliterinnen": [
-"KAR/PHE/HREU/TER/EUPB/TPHEPB"
+"KAR/PHE/HREU/TE/REUPB/TPHEPB"
 ],
 "Kartenräume": [
 "KAR/TEPB/ROEU/PHE"
@@ -2142,9 +2199,11 @@
 "Kartoffelmehle": [
 "KAR/TOF/TPEL/PHE/HRE"
 ],
-"Kassia": [],
+"Kassia": [
+"KAS/SEU/A"
+],
 "Katalanischen": [
-"KA/TA/HRAPB/EU/SHEPB"
+"KA/TA/HRA/TPHEU/SHEPB"
 ],
 "Katalogfoto": [
 "KA/TA/HROG/TPO/TO"
@@ -2175,7 +2234,7 @@
 "KEPB/PHE/HRO/TKAOEU"
 ],
 "Keramikfunde": [
-"KER/A/PHEUBG/TPUPB/TKE"
+"KE/RA/PHEUBG/TPUPB/TKE"
 ],
 "Kerngehalte": [
 "KERPB/TKPWE/HAL/TE"
@@ -2203,10 +2262,10 @@
 "KAOEUZ/TKPWROUPB"
 ],
 "Kindererziehung": [
-"KEUPB/TKER/ER/ZAOEU/HUPBG"
+"KEUPB/TKE/RER/ZAOEU/HUPBG"
 ],
 "Kinderferienaktionen": [
-"KEUPB/TKER/TPER/AOEU/TPHABG/TEU/OPB/EPB"
+"KEUPB/TKER/TPE/RAOEU/TPHABG/TEU/OPB/EPB"
 ],
 "Kinderkönigin": [
 "KEUPB/TKER/KOE/TPHEU/TKPWEUPB"
@@ -2289,8 +2348,7 @@
 "TKPHA/PWEPB/PHAPB/SHAFT"
 ],
 "Knauserei": [
-"TKPHAUFR/AEU",
-"TKPHAU/SER/AEU"
+"TKPHAU/SE/RAEU"
 ],
 "Kneipenwirtin": [
 "TKPHAEU/PEPB/WEUR/TEUPB"
@@ -2308,7 +2366,7 @@
 "KOL/HREBG/TEUF/TKPWAEUS/TEPB"
 ],
 "Kollektivverantwortung": [
-"KOL/HREBG/TEUF/SRER/APBT/WOR/TUPBG"
+"KOL/HREBG/TEUF/SRE/RAPBT/WOR/TUPBG"
 ],
 "Kolosse": [
 "KO/HROS/SE"
@@ -2344,7 +2402,7 @@
 ],
 "Konferenzort": [
 "KOPB/TPERPB/ZORT",
-"KOPB/TPER/EPB/ZORT"
+"KOPB/TPE/REPB/ZORT"
 ],
 "Konjunkturbelebung": [
 "KOPB/SKWRUPBG/TUR/PWE/HRE/PWUPBG"
@@ -2397,7 +2455,9 @@
 "Kostenblock": [
 "KOS/TEPB/PWHROBG"
 ],
-"Kraftstoffqualität": [],
+"Kraftstoffqualität": [
+"KRAFTS/TOF/KWU/A/HREU/TAET"
+],
 "Krampfanfall": [
 "KRAPL/TKPAPB/TPAL"
 ],
@@ -2410,7 +2470,9 @@
 "Krankenhausschließung": [
 "KRAPB/KEPB/HAUS/SHRAOEU/SUPBG"
 ],
-"Kreativtag": [],
+"Kreativtag": [
+"KRE/A/TEUF/TAG"
+],
 "Krematoriumsofen": [],
 "Kreplächer": [
 "KRE/PHRAE/KHER"
@@ -2443,8 +2505,7 @@
 "Kulturattaché": [],
 "Kulturstaatsministerin": [],
 "Kunstgießereien": [
-"KUFPBT/TKPWAOEUFR/AEU/EPB",
-"KUFPBT/TKPWAOEU/SER/AEU/EPB"
+"KUFPBT/TKPWAOEU/SE/RAEU/EPB"
 ],
 "Kunststoffscheibe": [
 "KUFPBTS/TOF/SHAEU/PWE"
@@ -2457,7 +2518,9 @@
 "KU/RAOEUR/TPA/RER"
 ],
 "Kurpackungen": [],
-"Kurvenlineale": [],
+"Kurvenlineale": [
+"KUR/SREPB/HREU/TPHE/A/HRE"
+],
 "Kurzinterview": [],
 "Königsdrama": [
 "KOE/TPHEUGSD/RA/PHA"
@@ -2561,7 +2624,7 @@
 "HRAUF/PWUR/SHE"
 ],
 "Laufgeräusch": [
-"HRAUF/TKPWER/OEURB"
+"HRAUF/TKPWE/ROEURB"
 ],
 "Lautwert": [
 "HRAUT/WERT"
@@ -2572,23 +2635,28 @@
 "Lebensmittelkarte": [
 "HRE/PWEPBS/PHEUT/TEL/KAR/TE"
 ],
-"Lebensmittelqualität": [],
+"Lebensmittelqualität": [
+"HRE/PWEPBS/PHEUT/TEL/KWU/A/HREU/TAET"
+],
 "Lebenstechnik": [
 "HRE/PWEPBS/TEFP/TPHEUBG"
 ],
 "Leberdiät": [],
 "Lederpolsterungen": [
-"HRERD/POLS/TER/UPB/TKPWEPB",
-"HRE/TKER/POLS/TER/UPB/TKPWEPB"
+"HRERD/POLS/TE/RUPB/TKPWEPB",
+"HRE/TKER/POLS/TE/RUPB/TKPWEPB"
 ],
 "Legehennenfarme": [
 "HRE/TKPWE/HEPB/TPHEPB/TPAR/PHE"
 ],
 "Lehrerarbeitszeit": [
-"HRE/RER/AR/PWAEUTS/ZAEUT"
+"HRE/RE/RAR/PWAEUTS/ZAEUT"
 ],
 "Lehrerpaare": [],
-"Leichtwasserreaktor": [],
+"Leichtwasserreaktor": [
+"HRAEUFPT/WAFR/RE/ABG/TOR",
+"HRAEUFPT/WAS/SER/RE/ABG/TOR"
+],
 "Leihgebühre": [
 "HRAEU/TKPWE/PWOU/RE"
 ],
@@ -2605,8 +2673,7 @@
 "HRAOEU/PWES/PWOT/SHAF/TEPB"
 ],
 "Liebhaberin": [
-"HRAOEUB/HARB/EUPB",
-"HRAOEUB/HA/PWER/EUPB"
+"HRAOEUB/HA/PWE/REUPB"
 ],
 "Liebhaberwerte": [
 "HRAOEUB/HARB/WER/TE",
@@ -2619,8 +2686,7 @@
 "HRAOEU/PWHREUPBGS/TEBGS/TE"
 ],
 "Lieferant": [
-"HRAOEUFR/APBT",
-"HRAOEU/TPER/APBT"
+"HRAOEU/TPE/RAPBT"
 ],
 "Liegebank": [
 "HRAOEU/TKPWE/PWAPBG"
@@ -2640,7 +2706,7 @@
 "HREUS/TEPB/WAL/REFPT"
 ],
 "Literaturdenkmal": [
-"HREU/TER/A/TUR/TKEPBG/PHAL"
+"HREU/TE/RA/TUR/TKEPBG/PHAL"
 ],
 "Lohnliste": [
 "HROPB/HREUS/TE"
@@ -2690,9 +2756,11 @@
 ],
 "Maastrichter": [],
 "Machtbereiche": [
-"PHAFPT/PWER/AEU/KHE"
+"PHAFPT/PWE/RAEU/KHE"
 ],
-"Mafia": [],
+"Mafia": [
+"PHA/TPEU/A"
+],
 "Mailboxe": [
 "PHAEUL/PWO/KPE"
 ],
@@ -2706,8 +2774,8 @@
 "PHALS/TUPB/TKEPB"
 ],
 "Maniküren": [
-"PHAPB/EU/KOURPB",
-"PHAPB/EU/KOU/REPB"
+"PHA/TPHEU/KOURPB",
+"PHA/TPHEU/KOU/REPB"
 ],
 "Mannschaftszelte": [
 "PHAPB/SHAFTS/ZEL/TE"
@@ -2734,14 +2802,15 @@
 "PHA/TU/REPB"
 ],
 "Mauerlattich": [
-"PHAUR/HRAT/TEUFP"
+"PHAUR/HRAT/TEUFP",
+"PHAU/ER/HRAT/TEUFP"
 ],
 "Maximalprofite": [],
 "Mechanikerin": [
-"PHE/KHAPB/EU/KER/EUPB"
+"PHE/KHA/TPHEU/KE/REUPB"
 ],
 "Medienberater": [
-"PHE/TKAOEUPB/PWER/A/TER"
+"PHE/TKAOEUPB/PWE/RA/TER"
 ],
 "Mediendesign": [],
 "Medienkulturen": [
@@ -2762,7 +2831,7 @@
 "PHER/TKPWE/WEUFP/TE"
 ],
 "Mehrzahlerin": [
-"PHER/ZA/HRER/EUPB"
+"PHER/ZA/HRE/REUPB"
 ],
 "Meineidaffäre": [
 "PHAEU/TPHAEU/TKAF/TPAE/RE"
@@ -2783,10 +2852,10 @@
 "PHEPB/SHEPB/SHREP/PER"
 ],
 "Merkaptane": [
-"PHER/KAP/TAPB/E"
+"PHER/KAP/TA/TPHE"
 ],
 "Messeausstellerin": [
-"PHES/SE/AUS/TEL/HRER/EUPB"
+"PHES/SE/AUS/TEL/HRE/REUPB"
 ],
 "Messerschnitt": [],
 "Messerundgang": [
@@ -2800,8 +2869,8 @@
 "PHETZ/TKPWE/RAEU/PWE/SEUT/ZER"
 ],
 "Mikrowellengerät": [
-"PHEUBG/RO/WEPBL/TKPWER/AET",
-"PHEUBG/RO/WEL/HREPB/TKPWER/AET"
+"PHEUBG/RO/WEPBL/TKPWE/RAET",
+"PHEUBG/RO/WEL/HREPB/TKPWE/RAET"
 ],
 "Milchbildungen": [
 "PHEUFPL/PWEUL/TKUPB/TKPWEPB"
@@ -2814,9 +2883,11 @@
 "PHEU/HREU/TAER/TKEU/REBG/TO/REPB"
 ],
 "Militärgerichtsbarkeit": [
-"PHEU/HREU/TAER/TKPWER/EUFPTS/PWAR/KAEUT"
+"PHEU/HREU/TAER/TKPWE/REUFPTS/PWAR/KAEUT"
 ],
-"Milliardenertrag": [],
+"Milliardenertrag": [
+"PHEUL/HREU/AR/TKE/TPHER/TRAG"
+],
 "Minarettverbote": [
 "PHEU/TPHART/SRER/PWO/TE",
 "PHEU/TPHA/RET/SRER/PWO/TE"
@@ -2827,7 +2898,9 @@
 "Mindesthöhe": [
 "PHEUPB/TKEFT/HOE/HE"
 ],
-"Miniaturgolfklub": [],
+"Miniaturgolfklub": [
+"PHEU/TPHEU/A/TUR/TKPWOFL/KHRUB"
+],
 "Minikrise": [
 "PHEU/TPHEUBG/REU/SE"
 ],
@@ -2850,7 +2923,7 @@
 "PHEUTS/TU/TKEPBT"
 ],
 "Mittelamerikaner": [
-"PHEUT/TE/HRA/PHER/EU/KAPB/ER"
+"PHEUT/TE/HRA/PHE/REU/KA/TPHER"
 ],
 "Mittelstandsbänke": [],
 "Modellfluggruppen": [
@@ -2886,7 +2959,10 @@
 "PHORPBG/HRAEPB/TKER",
 "PHOR/TKPWEPB/HRAEPB/TKER"
 ],
-"Multiagent": [],
+"Multiagent": [
+"PHUL/TEU/APBGT",
+"PHUL/TEU/A/TKPWEPBT"
+],
 "Musiknacht": [
 "PHU/SEUBG/TPHAFPT"
 ],
@@ -2927,7 +3003,7 @@
 "TPHAFPT/HAU/PWEPB"
 ],
 "Nachwuchssängerin": [
-"TPHAFP/WUFPS/SAEPB/TKPWER/EUPB"
+"TPHAFP/WUFPS/SAEPB/TKPWE/REUPB"
 ],
 "Nager": [
 "TPHA/TKPWER"
@@ -2958,7 +3034,9 @@
 "Naturwelt": [
 "TPHA/TUR/WELT"
 ],
-"Neandertalerin": [],
+"Neandertalerin": [
+"TPHE/APB/TKER/TA/HRE/REUPB"
+],
 "Nebelauflösungen": [
 "TPHE/PWE/HRAUF/HROE/SUPB/TKPWEPB"
 ],
@@ -2972,8 +3050,12 @@
 "Neigetechnikzüge": [
 "TPHAEU/TKPWE/TEFP/TPHEUBG/ZOU/TKPWE"
 ],
-"Neokolonialismus": [],
-"Neonleuchten": [],
+"Neokolonialismus": [
+"TPHE/O/KO/HRO/TPHEU/A/HREUS/PHUS"
+],
+"Neonleuchten": [
+"TPHE/OPB/HROEUFP/TEPB"
+],
 "Neptunbrunnen": [
 "TPHEP/TUPB/PWRUPB/TPHEPB"
 ],
@@ -3019,7 +3101,9 @@
 "Nudelmacher": [
 "TPHU/TKEL/PHA/KHER"
 ],
-"Nukleareinrichtungen": [],
+"Nukleareinrichtungen": [
+"TPHU/KHRE/AR/AEUPB/REUFP/TUPB/TKPWEPB"
+],
 "Nussholz": [
 "TPHUS/HOLZ"
 ],
@@ -3030,11 +3114,10 @@
 "TPHUT/ZUPBGS/REFPT"
 ],
 "Nährstofflieferant": [
-"TPHAERS/TOF/HRAOEU/TPER/APBT",
-"TPHAERS/TOF/HRAOEUFR/APBT"
+"TPHAERS/TOF/HRAOEU/TPE/RAPBT"
 ],
 "Oberländerinnen": [
-"ORB/HRAEPB/TKER/EUPB/TPHEPB"
+"ORB/HRAEPB/TKE/REUPB/TPHEPB"
 ],
 "Oberrohre": [
 "ORB/RO/RE"
@@ -3043,18 +3126,20 @@
 "OFBTS/TAEPB/TKE"
 ],
 "Ochsenbauer": [
-"OFP/SEPB/PWAUR"
+"OFP/SEPB/PWAUR",
+"OFP/SEPB/PWAU/ER"
 ],
 "Offiziersfamilie": [
 "OF/TPEU/ZAOEURS/TPA/PHEU/HRAOEU"
 ],
 "Offiziersvereinigung": [
-"OF/TPEU/ZAOEURS/SRER/AEU/TPHEU/TKPWUPBG"
+"OF/TPEU/ZAOEURS/SRE/RAEU/TPHEU/TKPWUPBG"
 ],
-"Oleat": [],
+"Oleat": [
+"O/HRE/AT"
+],
 "Oliverios": [
-"O/HREUFR/EU/OS",
-"O/HREU/SRER/EU/OS"
+"O/HREU/SRE/REU/OS"
 ],
 "Omnipotenzfantasie": [
 "OPL/TPHEU/PO/TEPBZ/TPAPB/TA/SAOEU"
@@ -3064,11 +3149,11 @@
 "OPL/TPHEUP/RAE/SEPB/ZEPB"
 ],
 "Operationschefe": [
-"O/PER/A/TEU/OPB/SHEF/E"
+"O/PE/RA/TEU/OPB/SHEF/E"
 ],
 "Operettensängerin": [
-"O/PERT/TEPB/SAEPB/TKPWER/EUPB",
-"O/PER/ET/TEPB/SAEPB/TKPWER/EUPB"
+"O/PERT/TEPB/SAEPB/TKPWE/REUPB",
+"O/PE/RET/TEPB/SAEPB/TKPWE/REUPB"
 ],
 "Opferlisten": [
 "O/TKPER/HREUFT/EPB"
@@ -3080,13 +3165,15 @@
 "OR/PWEU/TA"
 ],
 "Organisationskonferenz": [
-"OR/TKPWAPB/EU/SA/TEU/OPBS/KOPB/TPERPBZ",
-"OR/TKPWAPB/EU/SA/TEU/OPBS/KOPB/TPER/EPBZ"
+"OR/TKPWA/TPHEU/SA/TEU/OPBS/KOPB/TPERPBZ",
+"OR/TKPWA/TPHEU/SA/TEU/OPBS/KOPB/TPE/REPBZ"
 ],
 "Organisationsplan": [
-"OR/TKPWAPB/EU/SA/TEU/OPBS/PHRAPB"
+"OR/TKPWA/TPHEU/SA/TEU/OPBS/PHRAPB"
 ],
-"Orgelbearbeitung": [],
+"Orgelbearbeitung": [
+"OR/TKPWEL/PWE/AR/PWAEU/TUPBG"
+],
 "Orgelwerke": [
 "OR/TKPWEL/WER/KE"
 ],
@@ -3098,7 +3185,9 @@
 "O/ZOPB/PHEUT/TEL/WERT"
 ],
 "Paktsystem": [],
-"Panikreaktionen": [],
+"Panikreaktionen": [
+"PA/TPHEUBG/RE/ABG/TEU/OPB/EPB"
+],
 "Pankallen": [
 "PAPB/KAPBL",
 "PAPB/KAL/HREPB"
@@ -3118,7 +3207,7 @@
 "PA/RA/TKPWA/SE"
 ],
 "Parallelveranstaltungen": [
-"PA/RAL/HREL/SRER/APBS/TAL/TUPB/TKPWEPB"
+"PA/RAL/HREL/SRE/RAPBS/TAL/TUPB/TKPWEPB"
 ],
 "Parallelwirtschaft": [
 "PA/RAL/HREL/WEURT/SHAFT"
@@ -3149,7 +3238,7 @@
 "PA/ZEU/TPEU/KA/TEU/OPB/EPB"
 ],
 "Pelerine": [
-"PE/HRER/EU/TPHE"
+"PE/HRE/REU/TPHE"
 ],
 "Pensionsabgaben": [
 "PEPB/SEU/OPB/SAB/TKPWA/PWEPB"
@@ -3158,7 +3247,7 @@
 "PER/KUS/SEU/O/TPHEUS/TEUPB/TPHEPB"
 ],
 "Peronist": [
-"PER/O/TPHEUFT"
+"PE/RO/TPHEUFT"
 ],
 "Perspektiven": [
 "PER/SPEBG/TEU/SREPB"
@@ -3193,7 +3282,7 @@
 "PHRAPB/TKA/TUPL"
 ],
 "Planungssicherheit": [
-"PHRAPB/UPBGS/SEU/KHER/HAEUT"
+"PHRA/TPHUPBGS/SEU/KHER/HAEUT"
 ],
 "Planungsstadium": [],
 "Plastikkiste": [
@@ -3240,7 +3329,7 @@
 "PRAEU/SABG/TEU/OPB/EPB"
 ],
 "Preisminderung": [
-"PRAEUS/PHEUPB/TKER/UPBG"
+"PRAEUS/PHEUPB/TKE/RUPBG"
 ],
 "Pressepastoren": [
 "PRES/SE/PAS/TORPB",
@@ -3253,7 +3342,7 @@
 "PREU/PHAERS/TA/TEUS/TEUBG"
 ],
 "Printbereich": [
-"PREUPBT/PWER/AEUFP"
+"PREUPBT/PWE/RAEUFP"
 ],
 "Privatbieter": [
 "PREU/SRAT/PWAOEU/TER"
@@ -3296,7 +3385,7 @@
 "PRO/TA/TKPWO/TPHEUFT"
 ],
 "Protestgeneration": [
-"PRO/TEFT/TKPWE/TPHER/A/TEU/OPB"
+"PRO/TEFT/TKPWE/TPHE/RA/TEU/OPB"
 ],
 "Protoplastenfusion": [
 "PRO/TO/PHRAS/TEPB/TPU/SEU/OPB"
@@ -3331,8 +3420,12 @@
 "PUTS/TKAOEUPBS/TE",
 "PUTZ/TKAOEUPBS/TE"
 ],
-"Qual": [],
-"Qualitätsverfall": [],
+"Qual": [
+"KWU/AL"
+],
+"Qualitätsverfall": [
+"KWU/A/HREU/TAETS/SRER/TPAL"
+],
 "Rabau": [
 "RA/PWAU"
 ],
@@ -3342,7 +3435,10 @@
 "Radikalökologe": [
 "RA/TKEU/KA/HROE/KO/HRO/TKPWE"
 ],
-"Radioquellen": [],
+"Radioquellen": [
+"RA/TKEU/O/KWU/EPBL",
+"RA/TKEU/O/KWU/EL/HREPB"
+],
 "Radiosysteme": [],
 "Raffineure": [
 "RAF/TPEU/TPHOEU/RE"
@@ -3376,9 +3472,15 @@
 "Rauschgiftdelikte": [
 "RAURB/TKPWEUFT/TKE/HREUBG/TE"
 ],
-"Reaktorsicherheitskommissionen": [],
-"Realist": [],
-"Realschulabsolvent": [],
+"Reaktorsicherheitskommissionen": [
+"RE/ABG/TOR/SEU/KHER/HAEUTS/KOPL/PHEUS/SEU/OPB/EPB"
+],
+"Realist": [
+"RE/A/HREUFT"
+],
+"Realschulabsolvent": [
+"RE/AL/SHU/HRAB/SOL/SREPBT"
+],
 "Rebellenarmeen": [
 "RE/PWEL/HRE/TPHAR/PHAOEPB"
 ],
@@ -3387,11 +3489,10 @@
 "RE/KHER"
 ],
 "Rechtsmedizinerin": [
-"REFPTS/PHE/TKEU/ZEU/TPHER/EUPB"
+"REFPTS/PHE/TKEU/ZEU/TPHE/REUPB"
 ],
 "Rechtsreferat": [
-"REFPTS/REFR/AT",
-"REFPTS/RE/TPER/AT"
+"REFPTS/RE/TPE/RAT"
 ],
 "Rechtstreuen": [
 "REFPT/STROEU/EPB"
@@ -3438,7 +3539,7 @@
 "RAEU/SAEUPB/TPOR/PHA/TEU/OPB"
 ],
 "Reiterattacken": [
-"RAEU/TER/AT/TABG/EPB"
+"RAEU/TE/RAT/TABG/EPB"
 ],
 "Reißwollen": [
 "RAEUS/WOPBL",
@@ -3465,7 +3566,7 @@
 "REU/PWO/SO/PHE"
 ],
 "Richterdienstgerichte": [
-"REUFP/TER/TKAOEUFPBT/TKPWER/EUFP/TE"
+"REUFP/TER/TKAOEUFPBT/TKPWE/REUFP/TE"
 ],
 "Riesenjubel": [
 "RAOEUFPB/SKWRU/PWEL",
@@ -3488,8 +3589,7 @@
 "RO/KOFT/SA/HRA/TE"
 ],
 "Rohstofflieferung": [
-"ROS/TOF/HRAOEUFR/UPBG",
-"ROS/TOF/HRAOEU/TPER/UPBG"
+"ROS/TOF/HRAOEU/TPE/RUPBG"
 ],
 "Romanautor": [],
 "Ruder": [
@@ -3500,7 +3600,7 @@
 "RU/HE/TKPWELD"
 ],
 "Röstereien": [
-"ROES/TER/AEU/EPB"
+"ROES/TE/RAEU/EPB"
 ],
 "Rückfahrschein": [
 "ROUBG/TPAR/SHAEUPB"
@@ -3531,16 +3631,16 @@
 "SAPB/TKA/HREPB"
 ],
 "Sanierungsjahre": [
-"SAPB/AOEU/RUPBGS/SKWRA/RE"
+"SA/TPHAOEU/RUPBGS/SKWRA/RE"
 ],
 "Sanierungsmethode": [
-"SAPB/AOEU/RUPBGS/PHET/HO/TKE"
+"SA/TPHAOEU/RUPBGS/PHET/HO/TKE"
 ],
 "Sanitärbedarfe": [
-"SAPB/EU/TAER/PWE/TKAR/TPE"
+"SA/TPHEU/TAER/PWE/TKAR/TPE"
 ],
 "Sanktionsforderung": [
-"SAPBG/TEU/OPBS/TPOR/TKER/UPBG"
+"SAPBG/TEU/OPBS/TPOR/TKE/RUPBG"
 ],
 "Satellitenbahn": [
 "SA/TEL/HREU/TEPB/PWAPB"
@@ -3565,13 +3665,14 @@
 "SHAF/TPE/REUPB/TPHEPB/PHAL"
 ],
 "Schamanismus": [
-"SHA/PHAPB/EUS/PHUS"
+"SHA/PHA/TPHEUS/PHUS"
 ],
 "Schanzarbeit": [
 "SHAPB/ZAR/PWAEUT"
 ],
 "Schauerromane": [
-"SHAUR/RO/PHAPB/E"
+"SHAUR/RO/PHA/TPHE",
+"SHAU/ER/RO/PHA/TPHE"
 ],
 "Scheidungsverbot": [
 "SHAEU/TKUPBGS/SRER/PWOT"
@@ -3628,9 +3729,11 @@
 "SHROS/SER/HAPBD/WER/KE"
 ],
 "Schlossgalerien": [
-"SHROS/TKPWA/HRER/AOEUPB"
+"SHROS/TKPWA/HRE/RAOEUPB"
 ],
-"Schlossplatztheater": [],
+"Schlossplatztheater": [
+"SHROS/PHRAFT/HE/A/TER"
+],
 "Schlusstermin": [
 "SHRUS/TER/PHEUPB"
 ],
@@ -3666,11 +3769,11 @@
 "STPHAOE/TPAL/TKPWREPB/ZEPB"
 ],
 "Schneemauer": [
-"STPHAOE/PHAUR"
+"STPHAOE/PHAUR",
+"STPHAOE/PHAU/ER"
 ],
 "Schneiderin": [
-"STPHAEURD/EUPB",
-"STPHAEU/TKER/EUPB"
+"STPHAEU/TKE/REUPB"
 ],
 "Schnellbriefe": [
 "STPHEL/PWRAOEU/TPE"
@@ -3778,8 +3881,8 @@
 "SEFPS/SPAEPB/TPHER"
 ],
 "Sedimentablagerungen": [
-"SE/TKEUPBL/TA/PWHRA/TKPWER/UPB/TKPWEPB",
-"SE/TKEU/PHEPB/TA/PWHRA/TKPWER/UPB/TKPWEPB"
+"SE/TKEUPBL/TA/PWHRA/TKPWE/RUPB/TKPWEPB",
+"SE/TKEU/PHEPB/TA/PWHRA/TKPWE/RUPB/TKPWEPB"
 ],
 "Seefahrtsbüche": [
 "SAOE/TPARTS/PWOU/KHE"
@@ -3830,7 +3933,7 @@
 "SHUPB/TE"
 ],
 "Sicherheitsplanungen": [
-"SEU/KHER/HAEUTS/PHRAPB/UPB/TKPWEPB"
+"SEU/KHER/HAEUTS/PHRA/TPHUPB/TKPWEPB"
 ],
 "Siedlungsstopp": [
 "SAOEUD/HRUPBGS/TOP"
@@ -3846,8 +3949,8 @@
 "SEUL/PWER/KET/TE"
 ],
 "Silbermedaillengewinnerinnen": [
-"SEUL/PWER/PHE/TKAEUPBL/TKPWE/WEUPB/TPHER/EUPB/TPHEPB",
-"SEUL/PWER/PHE/TKAEUL/HREPB/TKPWE/WEUPB/TPHER/EUPB/TPHEPB"
+"SEUL/PWER/PHE/TKAEUPBL/TKPWE/WEUPB/TPHE/REUPB/TPHEPB",
+"SEUL/PWER/PHE/TKAEUL/HREPB/TKPWE/WEUPB/TPHE/REUPB/TPHEPB"
 ],
 "Silberwald": [
 "SEUL/PWER/WALD"
@@ -3859,7 +3962,9 @@
 "Sirtaki": [
 "SEUR/TA/KEU"
 ],
-"Situationsbericht": [],
+"Situationsbericht": [
+"SEU/TU/A/TEU/OPBS/PWE/REUFPT"
+],
 "Skitalent": [
 "SKEU/TAPBLT",
 "SKEU/TA/HREPBT"
@@ -3883,7 +3988,7 @@
 ],
 "Sommertournee": [],
 "Sondereffekte": [
-"SOPB/TKER/EF/TPEBG/TE"
+"SOPB/TKE/REF/TPEBG/TE"
 ],
 "Sondergesetze": [
 "SOPB/TKER/TKPWE/SET/ZE"
@@ -3934,7 +4039,9 @@
 "Spielbetriebe": [
 "SPAOEUL/PWE/TRAOEU/PWE"
 ],
-"Spieleausstellung": [],
+"Spieleausstellung": [
+"SPAOEU/HRE/AUS/TEL/HRUPBG"
+],
 "Spielführung": [
 "SPAOEUL/TPOU/RUPBG"
 ],
@@ -3945,7 +4052,7 @@
 "SPAOEUL/SPA/SE"
 ],
 "Spielzeitverlängerung": [
-"SPAOEUL/ZAEUT/SRER/HRAEPB/TKPWER/UPBG"
+"SPAOEUL/ZAEUT/SRER/HRAEPB/TKPWE/RUPBG"
 ],
 "Spiritisten": [
 "SPEU/REU/TEUS/TEPB"
@@ -3977,7 +4084,7 @@
 "Staatsdienste": [],
 "Staatsfeinder": [],
 "Stadtbezirksgerichte": [
-"STATD/PWE/ZEURBGS/TKPWER/EUFP/TE"
+"STATD/PWE/ZEURBGS/TKPWE/REUFP/TE"
 ],
 "Stadtgebilde": [
 "STATD/TKPWE/PWEUL/TKE"
@@ -3996,7 +4103,7 @@
 "STATD/SOL/TKA/TEPB/KORP/SE"
 ],
 "Stadtverordnete": [
-"STATD/SRER/ORD/TPHE/TE"
+"STATD/SRE/RORD/TPHE/TE"
 ],
 "Stahlklammer": [
 "STAL/KHRAPL/PHER"
@@ -4005,7 +4112,7 @@
 "STAL/TPHA/TKPWEL"
 ],
 "Stahlverein": [
-"STAL/SRER/AEUPB"
+"STAL/SRE/RAEUPB"
 ],
 "Standardformationen": [
 "STAPB/TKARD/TPOR/PHA/TEU/OPB/EPB"
@@ -4039,7 +4146,9 @@
 "STAEUPB/PWRUFP/TKPWE/HRAEPB/TKE"
 ],
 "Steinbruchliste": [],
-"Steinkohleabbau": [],
+"Steinkohleabbau": [
+"STAEUPB/KO/HRE/AB/PWAU"
+],
 "Stellenvermittlungen": [
 "STEPBL/SRER/PHEUT/HRUPB/TKPWEPB",
 "STEL/HREPB/SRER/PHEUT/HRUPB/TKPWEPB"
@@ -4054,8 +4163,7 @@
 "STERPB/TAG"
 ],
 "Steuerakte": [
-"STOEUR/ABG/TE",
-"STOEU/ER/ABG/TE"
+"STOEU/E/RABG/TE"
 ],
 "Steuerverbunde": [
 "STOEUR/SRER/PWUPB/TKE",
@@ -4074,16 +4182,16 @@
 "STEUL/TREF"
 ],
 "Stimmberechtigter": [
-"STEUPL/PWER/EFP/TEUG/TER"
+"STEUPL/PWE/REFP/TEUG/TER"
 ],
 "Stimmbevölkerungen": [
-"STEUPL/PWE/SROEL/KER/UPB/TKPWEPB"
+"STEUPL/PWE/SROEL/KE/RUPB/TKPWEPB"
 ],
 "Stimmfarbe": [
 "STEUPL/TPAR/PWE"
 ],
 "Stimmungsmalereien": [
-"STEUPL/PHUPBGS/PHA/HRER/AEU/EPB"
+"STEUPL/PHUPBGS/PHA/HRE/RAEU/EPB"
 ],
 "Strafbemessungen": [
 "STRAF/PWEPLS/SUPB/TKPWEPB",
@@ -4097,7 +4205,7 @@
 "STRA/TPREFPTS/HRE/RER"
 ],
 "Strafrechtsänderungen": [
-"STRA/TPREFPT/SAEPB/TKER/UPB/TKPWEPB"
+"STRA/TPREFPT/SAEPB/TKE/RUPB/TKPWEPB"
 ],
 "Strafsteuerne": [
 "STRA*FT/OEUR/TPHE",
@@ -4167,7 +4275,9 @@
 "Ständerpilze": [
 "STAEPB/TKER/PEUL/ZE"
 ],
-"Störpotenzial": [],
+"Störpotenzial": [
+"STOER/PO/TEPB/ZEU/AL"
+],
 "Stürmertor": [
 "STOUR/PHER/TOR"
 ],
@@ -4179,7 +4289,7 @@
 "SU/PER/HREU/TKPWEPB"
 ],
 "Supermarktkassiererinnen": [
-"SU/PER/PHARBGT/KAS/SAOEU/RER/EUPB/TPHEPB"
+"SU/PER/PHARBGT/KAS/SAOEU/RE/REUPB/TPHEPB"
 ],
 "Superstrolch": [
 "SU/PERS/TROFPL"
@@ -4192,7 +4302,7 @@
 "SOEU/HREPB/KA/PEU/TEL"
 ],
 "Söldnerinnen": [
-"SOELD/TPHER/EUPB/TPHEPB"
+"SOELD/TPHE/REUPB/TPHEPB"
 ],
 "Südfranzose": [
 "SOUD/TPRAPB/ZO/SE"
@@ -4229,7 +4339,9 @@
 "Tatortnähen": [
 "TA/TORT/TPHAE/HEPB"
 ],
-"Teamgedanken": [],
+"Teamgedanken": [
+"TE/APL/TKPWE/TKAPB/KEPB"
+],
 "Teebaumöl": [
 "TAOE/PWAU/PHOEL"
 ],
@@ -4237,7 +4349,7 @@
 "TAEU/HRAB/PWRUFP"
 ],
 "Teilverlagerung": [
-"TAEUL/SRER/HRA/TKPWER/UPBG"
+"TAEUL/SRER/HRA/TKPWE/RUPBG"
 ],
 "Tellersammlungen": [
 "TEL/HRER/SAPL/HRUPB/TKPWEPB"
@@ -4246,7 +4358,7 @@
 "TEL/SOPB"
 ],
 "Temperaturrekord": [
-"TEPL/PER/A/TUR/RE/KORD"
+"TEPL/PE/RA/TUR/RE/KORD"
 ],
 "Tempohärte": [
 "TEPL/PO/HAER/TE"
@@ -4269,10 +4381,18 @@
 ],
 "Textstellen": [],
 "Textversionen": [],
-"Theaterbus": [],
-"Theateretate": [],
-"Theaterfahrten": [],
-"Theaterreihen": [],
+"Theaterbus": [
+"THE/A/TER/PWUS"
+],
+"Theateretate": [
+"THE/A/TE/RE/TA/TE"
+],
+"Theaterfahrten": [
+"THE/A/TER/TPAR/TEPB"
+],
+"Theaterreihen": [
+"THE/A/TER/RAEU/HEPB"
+],
 "Themenpläne": [
 "THEPBL/PHRAE/TPHE",
 "THE/PHEPB/PHRAE/TPHE"
@@ -4298,7 +4418,7 @@
 "TEU/RO/HRER/HUT"
 ],
 "Tirolerinnen": [
-"TEU/RO/HRER/EUPB/TPHEPB"
+"TEU/RO/HRE/REUPB/TPHEPB"
 ],
 "Todesstreifen": [
 "TO/TKES/TRAEUFPB",
@@ -4346,13 +4466,14 @@
 "TRAPB/SEUT/ZOU/TKPWE"
 ],
 "Transportgerät": [
-"TRAPB/SPORT/TKPWER/AET"
+"TRAPB/SPORT/TKPWE/RAET"
 ],
 "Transportgute": [
 "TRAPB/SPORT/TKPWU/TE"
 ],
 "Trauerprozess": [
-"TRAURP/RO/ZES"
+"TRAURP/RO/ZES",
+"TRAU/ERP/RO/ZES"
 ],
 "Trauring": [
 "TRAU/REUPBG"
@@ -4414,7 +4535,7 @@
 "UFR/WAEPB/TKE"
 ],
 "Umlandwanderung": [
-"UPL/HRAPBD/WAPB/TKER/UPBG"
+"UPL/HRAPBD/WAPB/TKE/RUPBG"
 ],
 "Umtauschrelationen": [
 "UPL/TAURB/RE/HRA/TEU/OPB/EPB"
@@ -4476,7 +4597,7 @@
 "UPB/TER/HAL/TUPBGS/SEPB/TKER"
 ],
 "Unterhaltungsserien": [
-"UPB/TER/HAL/TUPBGS/SER/AOEUPB"
+"UPB/TER/HAL/TUPBGS/SE/RAOEUPB"
 ],
 "Unterlinge": [
 "UPB/TER/HREUPB/TKPWE"
@@ -4542,8 +4663,7 @@
 "SRER/TPA/REPB/SEUPB/TPHO/SRA/TEU/OPB"
 ],
 "Verfeuerungen": [
-"SRER/TPOEUR/UPB/TKPWEPB",
-"SRER/TPOEU/ER/UPB/TKPWEPB"
+"SRER/TPOEU/E/RUPB/TKPWEPB"
 ],
 "Verfremdungseffekt": [
 "SRER/TPREPL/TKUPBG/SEF/TPEBGT"
@@ -4582,8 +4702,8 @@
 "SRER/PHAE/HRUPBG"
 ],
 "Vermögensberatungsgesellschaft": [
-"SRER/PHOEPBGS/PWER/A/TUPBGS/TKPWE/SEL/SHAFT",
-"SRER/PHOE/TKPWEPBS/PWER/A/TUPBGS/TKPWE/SEL/SHAFT"
+"SRER/PHOEPBGS/PWE/RA/TUPBGS/TKPWE/SEL/SHAFT",
+"SRER/PHOE/TKPWEPBS/PWE/RA/TUPBGS/TKPWE/SEL/SHAFT"
 ],
 "Vermögensvermehrungen": [
 "SRER/PHOEPBGS/SRER/PHE/RUPB/TKPWEPB",
@@ -4608,7 +4728,7 @@
 ],
 "Vertriebenenbund": [],
 "Verwaltungsgerichtskammer": [
-"SRER/WAL/TUPBGS/TKPWER/EUFPTS/KAPL/PHER"
+"SRER/WAL/TUPBGS/TKPWE/REUFPTS/KAPL/PHER"
 ],
 "Verwirrer": [
 "SRER/WEUR/RER"
@@ -4617,10 +4737,14 @@
 "SRER/WOUPB/SHUPB/TKPWEPB"
 ],
 "Veränderungsbedarf": [
-"SRER/AEPB/TKER/UPBGS/PWE/TKAFR"
+"SRER/AEPB/TKE/RUPBGS/PWE/TKAFR"
 ],
-"Videomarkt": [],
-"Videoprinte": [],
+"Videomarkt": [
+"SREU/TKE/O/PHARBGT"
+],
+"Videoprinte": [
+"SREU/TKE/OP/REUPB/TE"
+],
 "Vielfältigkeit": [
 "SRAOEUL/TPAEL/TEUG/KAEUT"
 ],
@@ -4634,7 +4758,7 @@
 "SREU/RAE/PHAOEUPB"
 ],
 "Vogelschützerin": [
-"SRO/TKPWEL/SHOUT/ZER/EUPB"
+"SRO/TKPWEL/SHOUT/ZE/REUPB"
 ],
 "Vogelsänger": [
 "SRO/TKPWEL/SAEPB/TKPWER"
@@ -4656,7 +4780,7 @@
 "SRO/RAU/SEUPB/TPOR/PHA/TEU/OPB"
 ],
 "Vorbereitungskurs": [
-"SROR/PWER/AEU/TUPBGS/KURS"
+"SROR/PWE/RAEU/TUPBGS/KURS"
 ],
 "Vorjahresdritten": [
 "SROR/SKWRARSD/REUT/TEPB",
@@ -4677,13 +4801,16 @@
 "SROR/ZUGS/PWE/HAPBD/HRUPBG"
 ],
 "Wachstumskrafte": [],
-"Waffenmateriale": [],
+"Waffenmateriale": [
+"WAFPB/PHA/TE/REU/A/HRE",
+"WAF/TPEPB/PHA/TE/REU/A/HRE"
+],
 "Wagniskapitalgeber": [
 "WAG/TPHEUS/KA/PEU/TAL/TKPWERB",
 "WAG/TPHEUS/KA/PEU/TAL/TKPWE/PWER"
 ],
 "Wahlforscherin": [
-"WAL/TPOR/SHER/EUPB"
+"WAL/TPOR/SHE/REUPB"
 ],
 "Wahlmarathone": [
 "WAL/PHA/RAT/HO/TPHE"
@@ -4696,7 +4823,7 @@
 "WAL/SRER/TPA/REPB"
 ],
 "Wahlvorbereitungsausschuss": [
-"WAL/SROR/PWER/AEU/TUPBG/SAUS/SHUS"
+"WAL/SROR/PWE/RAEU/TUPBG/SAUS/SHUS"
 ],
 "Wahrnehmungspsychologen": [],
 "Wahrspruch": [
@@ -4719,8 +4846,7 @@
 "WA/REPB/PWE/WE/TKPWUPBG"
 ],
 "Wasserableitungen": [
-"WAFR/A/PWHRAEU/TUPB/TKPWEPB",
-"WAS/SER/A/PWHRAEU/TUPB/TKPWEPB"
+"WAS/SE/RA/PWHRAEU/TUPB/TKPWEPB"
 ],
 "Wasserbewegung": [
 "WAFR/PWE/WE/TKPWUPBG",
@@ -4782,7 +4908,7 @@
 "WES/TAPB/TARBG/TEUS"
 ],
 "Westberlinerinnen": [
-"WEFT/PWER/HREU/TPHER/EUPB/TPHEPB"
+"WEFT/PWER/HREU/TPHE/REUPB/TPHEPB"
 ],
 "Wettbewerbsabteilung": [
 "WET/PWE/WERB/SAB/TAEU/HRUPBG"
@@ -4812,18 +4938,18 @@
 "WAOEU/TKER/HO/HRUPBG"
 ],
 "Wiedervereinigungsprozesse": [
-"WAOEURD/SRER/AEU/TPHEU/TKPWUPBG/SPRO/ZES/SE",
-"WAOEU/TKER/SRER/AEU/TPHEU/TKPWUPBG/SPRO/ZES/SE"
+"WAOEURD/SRE/RAEU/TPHEU/TKPWUPBG/SPRO/ZES/SE",
+"WAOEU/TKER/SRE/RAEU/TPHEU/TKPWUPBG/SPRO/ZES/SE"
 ],
 "Wiederverkauf": [
 "WAOEURD/SRER/KAUF",
 "WAOEU/TKER/SRER/KAUF"
 ],
 "Wiederveröffentlichungen": [
-"WAOEURD/SRER/OEFPBT/HREU/KHUPB/TKPWEPB",
-"WAOEU/TKER/SRER/OEFPBT/HREU/KHUPB/TKPWEPB",
-"WAOEURD/SRER/OEF/TPEPBT/HREU/KHUPB/TKPWEPB",
-"WAOEU/TKER/SRER/OEF/TPEPBT/HREU/KHUPB/TKPWEPB"
+"WAOEURD/SRE/ROEFPBT/HREU/KHUPB/TKPWEPB",
+"WAOEU/TKER/SRE/ROEFPBT/HREU/KHUPB/TKPWEPB",
+"WAOEURD/SRE/ROEF/TPEPBT/HREU/KHUPB/TKPWEPB",
+"WAOEU/TKER/SRE/ROEF/TPEPBT/HREU/KHUPB/TKPWEPB"
 ],
 "Willenskundgebungen": [
 "WEUPBLS/KUPBD/TKPWE/PWUPB/TKPWEPB",
@@ -4845,18 +4971,17 @@
 "WEURT/SHAFTS/SHOBG"
 ],
 "Witterungsschaden": [
-"WEUT/TER/UPBGS/SHA/TKEPB"
+"WEUT/TE/RUPBGS/SHA/TKEPB"
 ],
 "Wochenpensum": [
 "WO/KHEPB/PEPB/SUPL"
 ],
 "Wochenschaubericht": [
-"WO/KHEPB/SHAURB/EUFPT",
-"WO/KHEPB/SHAU/PWER/EUFPT"
+"WO/KHEPB/SHAU/PWE/REUFPT"
 ],
 "Wohlstandsverluste": [],
 "Wohnbauförderungsmittel": [
-"WOPB/PWAU/TPOER/TKER/UPBGS/PHEUT/TEL"
+"WOPB/PWAU/TPOER/TKE/RUPBGS/PHEUT/TEL"
 ],
 "Wohngelderhöhung": [
 "WOPB/TKPWEL/TKER/HOE/HUPBG"
@@ -4900,10 +5025,13 @@
 ],
 "Währungssouveränität": [],
 "Wärmetherapien": [
-"WAERPLT/HER/A/PAOEUPB",
-"WAER/PHET/HER/A/PAOEUPB"
+"WAERPLT/HE/RA/PAOEUPB",
+"WAER/PHET/HE/RA/PAOEUPB"
 ],
-"Würfelquallen": [],
+"Würfelquallen": [
+"WOUR/TPEL/KWU/APBL",
+"WOUR/TPEL/KWU/AL/HREPB"
+],
 "Zahnbrecher": [
 "ZAPB/PWRE/KHER"
 ],
@@ -4961,7 +5089,7 @@
 "ZOP/PO/TER"
 ],
 "Zuchtverein": [
-"ZUFPT/SRER/AEUPB"
+"ZUFPT/SRE/RAEUPB"
 ],
 "Zugangssoftwaren": [
 "ZU/TKPWAPBGS/SOFT/WARPB",
@@ -4974,8 +5102,7 @@
 "ZU/TKPWOU/PWUPB/TKPWEPB"
 ],
 "Zuliefererbetrieb": [
-"ZU/HRAOEUFR/ER/PWE/TRAOEUB",
-"ZU/HRAOEU/TPER/ER/PWE/TRAOEUB"
+"ZU/HRAOEU/TPE/RER/PWE/TRAOEUB"
 ],
 "Zumutbarkeitsgrenzen": [
 "ZU/PHUT/PWAR/KAEUTS/TKPWREPB/ZEPB"
@@ -5074,7 +5201,7 @@
 "ABG/KHRA/PHA/TO/REU/SHEPL"
 ],
 "albanische": [
-"AL/PWAPB/EU/SHE"
+"AL/PWA/TPHEU/SHE"
 ],
 "alkoholfreies": [
 "AL/KO/HOL/TPRAEUS",
@@ -5103,7 +5230,7 @@
 "AL/ZAEUT/EUGS/TE"
 ],
 "altbundesrepublikanische": [
-"ALT/PWUPB/TKES/RE/PU/PWHREU/KAPB/EU/SHE"
+"ALT/PWUPB/TKES/RE/PU/PWHREU/KA/TPHEU/SHE"
 ],
 "altirischester": [
 "AL/TEU/REURBS/TER",
@@ -5131,8 +5258,7 @@
 "APB/TPOU/REPB/TKES/TE"
 ],
 "angeberische": [
-"APB/TKPWERB/EU/SHE",
-"APB/TKPWE/PWER/EU/SHE"
+"APB/TKPWE/PWE/REU/SHE"
 ],
 "angescheeisst": [],
 "angeschreibt": [
@@ -5165,7 +5291,11 @@
 "APB/TEU/PHO/TPHAR/KHEUS/TEURBS/TEPB",
 "APB/TEU/PHO/TPHAR/KHEUS/TEU/SHES/TEPB"
 ],
-"antisozialistischestes": [],
+"antisozialistischestes": [
+"APB/TEU/SO/ZEU/A/HREUS/TEU/SHEFTS",
+"APB/TEU/SO/ZEU/A/HREUS/TEURBS/TES",
+"APB/TEU/SO/ZEU/A/HREUS/TEU/SHES/TES"
+],
 "antizentralistischeste": [
 "APB/TEU/ZEPB/TRA/HREUS/TEURBS/TE",
 "APB/TEU/ZEPB/TRA/HREUS/TEU/SHES/TE"
@@ -5234,8 +5364,8 @@
 ],
 "aufwickeln": [],
 "ausbeuterischester": [
-"AUS/PWOEU/TER/EURBS/TER",
-"AUS/PWOEU/TER/EU/SHES/TER"
+"AUS/PWOEU/TE/REURBS/TER",
+"AUS/PWOEU/TE/REU/SHES/TER"
 ],
 "auseilest": [
 "AU/SAEU/HREFT"
@@ -5335,7 +5465,7 @@
 "PWAUPL/TEPB"
 ],
 "bauplanungsrechtlicher": [
-"PWAU/PHRAPB/UPBGS/REFPT/HREU/KHER"
+"PWAU/PHRA/TPHUPBGS/REFPT/HREU/KHER"
 ],
 "bausparet": [
 "PWAU/SPART",
@@ -5386,7 +5516,7 @@
 "PWAEURB/WEUPL/TE"
 ],
 "bekennerischer": [
-"PWE/KEPB/TPHER/EU/SHER"
+"PWE/KEPB/TPHE/REU/SHER"
 ],
 "bekuckte": [
 "PWE/KUBG/TE"
@@ -5403,15 +5533,15 @@
 "PWE/PAEUS/SEPBD"
 ],
 "berufsbezoget": [
-"PWER/UFS/PWE/ZOGT",
-"PWER/UFS/PWE/ZO/TKPWET"
+"PWE/RUFS/PWE/ZOGT",
+"PWE/RUFS/PWE/ZO/TKPWET"
 ],
 "berufspraktischesten": [
-"PWER/UF/SPRABG/TEURBS/TEPB",
-"PWER/UF/SPRABG/TEU/SHES/TEPB"
+"PWE/RUF/SPRABG/TEURBS/TEPB",
+"PWE/RUF/SPRABG/TEU/SHES/TEPB"
 ],
 "berufsspezifischem": [
-"PWER/UFS/SPE/ZEU/TPEU/SHEPL"
+"PWE/RUFS/SPE/ZEU/TPEU/SHEPL"
 ],
 "beschickte": [
 "PWE/SHEUBG/TE"
@@ -5428,8 +5558,8 @@
 ],
 "betriebsärztlichstes": [],
 "bevölkerungsmäßiges": [
-"PWE/SROEL/KER/UPBGS/PHAE/SEUGS",
-"PWE/SROEL/KER/UPBGS/PHAE/SEU/TKPWES"
+"PWE/SROEL/KE/RUPBGS/PHAE/SEUGS",
+"PWE/SROEL/KE/RUPBGS/PHAE/SEU/TKPWES"
 ],
 "beweinet": [
 "PWE/WAEUPBT",
@@ -5540,7 +5670,7 @@
 "TKA/ZU/HRE/TKPWEPB"
 ],
 "dehumanisierte": [
-"TKE/HU/PHAPB/EU/SAOEUR/TE"
+"TKE/HU/PHA/TPHEU/SAOEUR/TE"
 ],
 "demokratisierte": [
 "TKE/PHOBG/RA/TEU/SAOEUR/TE"
@@ -5592,7 +5722,9 @@
 "direkte": [
 "TKEU/REBG/TE"
 ],
-"direktorial": [],
+"direktorial": [
+"TKEU/REBG/TO/REU/AL"
+],
 "diskontinuierlichen": [],
 "dosisabhängigem": [
 "TKO/SEU/SAB/HAEPB/TKPWEU/TKPWEPL"
@@ -5761,7 +5893,8 @@
 "AEUPB/PHRATZ/TEFT"
 ],
 "einquetschensten": [
-"AEUPB/KWUT/SHEPBS/TEPB"
+"AEUPB/KWUT/SHEPBS/TEPB",
+"AEUPB/KWU/ET/SHEPBS/TEPB"
 ],
 "einsaugten": [
 "AEUPB/SAUG/TEPB"
@@ -5899,7 +6032,7 @@
 "ER/HREB/PWA/REPB"
 ],
 "erlebenswere": [
-"ER/HRE/PWEPBS/WER/E"
+"ER/HRE/PWEPBS/WE/RE"
 ],
 "ersahst": [
 "ER/SAFT"
@@ -5922,12 +6055,14 @@
 "OEU/RO/PA/TAU/TKPWHREUFPS/TEPL"
 ],
 "experimentellen": [
-"EBGS/PER/EUPBL/TEPBL",
-"EBGS/PER/EU/PHEPB/TEPBL",
-"EBGS/PER/EUPBL/TEL/HREPB",
-"EBGS/PER/EU/PHEPB/TEL/HREPB"
+"EBGS/PE/REUPBL/TEPBL",
+"EBGS/PE/REU/PHEPB/TEPBL",
+"EBGS/PE/REUPBL/TEL/HREPB",
+"EBGS/PE/REU/PHEPB/TEL/HREPB"
 ],
-"exsozialistischer": [],
+"exsozialistischer": [
+"EBGS/SO/ZEU/A/HREUS/TEU/SHER"
+],
 "exterminierst": [
 "EBGS/TER/PHEU/TPHAOEUFRT"
 ],
@@ -6019,9 +6154,9 @@
 "TPOR/PHEPB/TKES/TEPL"
 ],
 "fotomechanischestes": [
-"TPO/TO/PHE/KHAPB/EU/SHEFTS",
-"TPO/TO/PHE/KHAPB/EURBS/TES",
-"TPO/TO/PHE/KHAPB/EU/SHES/TES"
+"TPO/TO/PHE/KHA/TPHEU/SHEFTS",
+"TPO/TO/PHE/KHA/TPHEURBS/TES",
+"TPO/TO/PHE/KHA/TPHEU/SHES/TES"
 ],
 "frankfurtischen": [
 "TPRAPBG/TPUR/TEU/SHEPB"
@@ -6095,12 +6230,9 @@
 "TKPWARS/TEU/TKPWE"
 ],
 "gastgeberischestes": [
-"TKPWAFT/TKPWERB/EU/SHEFTS",
-"TKPWAFT/TKPWE/PWER/EU/SHEFTS",
-"TKPWAFT/TKPWERB/EURBS/TES",
-"TKPWAFT/TKPWE/PWER/EURBS/TES",
-"TKPWAFT/TKPWERB/EU/SHES/TES",
-"TKPWAFT/TKPWE/PWER/EU/SHES/TES"
+"TKPWAFT/TKPWE/PWE/REU/SHEFTS",
+"TKPWAFT/TKPWE/PWE/REURBS/TES",
+"TKPWAFT/TKPWE/PWE/REU/SHES/TES"
 ],
 "gaumigem": [
 "TKPWAU/PHEU/TKPWEPL"
@@ -6116,8 +6248,8 @@
 "TKPWE/PWETS/PHOU/HRE/TPHAR/TEUG"
 ],
 "gebietsverantwortliches": [
-"TKPWE/PWAOEUTS/SRER/APBT/WORT/HREUFPS",
-"TKPWE/PWAOEUTS/SRER/APBT/WORT/HREU/KHES"
+"TKPWE/PWAOEUTS/SRE/RAPBT/WORT/HREUFPS",
+"TKPWE/PWAOEUTS/SRE/RAPBT/WORT/HREU/KHES"
 ],
 "gebirgigem": [
 "TKPWE/PWEUR/TKPWEU/TKPWEPL"
@@ -6141,8 +6273,8 @@
 "TKPWE/TPAEPBG/TPHEU/SAEPB/HREUFPS/TES"
 ],
 "gegenaufklärerisch": [
-"TKPWEPBG/AUF/KHRAE/RER/EURB",
-"TKPWE/TKPWEPB/AUF/KHRAE/RER/EURB"
+"TKPWEPBG/AUF/KHRAE/RE/REURB",
+"TKPWE/TKPWEPB/AUF/KHRAE/RE/REURB"
 ],
 "gegeneinanderprallten": [
 "TKPWEPBG/AEU/TPHAPB/TKER/PRAL/TEPB",
@@ -6159,7 +6291,10 @@
 "gelanglegt": [
 "TKPWE/HRAPB/TKPWHREGT"
 ],
-"gemeineuropäisches": [],
+"gemeineuropäisches": [
+"TKPWE/PHAEUPB/OEU/RO/PAE/EURBS",
+"TKPWE/PHAEUPB/OEU/RO/PAE/EU/SHES"
+],
 "genausohäufig": [
 "TKPWE/TPHAU/SO/HOEU/TPEUG"
 ],
@@ -6170,42 +6305,46 @@
 "genüge": [
 "TKPWE/TPHOU/TKPWE"
 ],
-"geografischer": [],
-"georangenfarbt": [],
+"geografischer": [
+"TKPWE/O/TKPWRA/TPEU/SHER"
+],
+"georangenfarbt": [
+"TKPWE/O/RAPB/TKPWEPB/TPARBT"
+],
 "gepropft": [
 "TKPWEP/RO*FPT"
 ],
 "geradebeiget": [
-"TKPWER/A/TKE/PWAEUGT",
-"TKPWER/A/TKE/PWAEU/TKPWET"
+"TKPWE/RA/TKE/PWAEUGT",
+"TKPWE/RA/TKE/PWAEU/TKPWET"
 ],
 "geradlinigem": [
-"TKPWER/AD/HREU/TPHEU/TKPWEPL"
+"TKPWE/RAD/HREU/TPHEU/TKPWEPL"
 ],
 "geranhängt": [
-"TKPWER/APB/HAEPBGT"
+"TKPWE/RAPB/HAEPBGT"
 ],
 "geraten": [
-"TKPWER/A/TEPB"
+"TKPWE/RA/TEPB"
 ],
 "gereichenstes": [
-"TKPWER/AEU/KHEFPBTS",
-"TKPWER/AEU/KHEPBS/TES"
+"TKPWE/RAEU/KHEFPBTS",
+"TKPWE/RAEU/KHEPBS/TES"
 ],
 "geringfügig": [
-"TKPWER/EUPBG/TPOU/TKPWEUG"
+"TKPWE/REUPBG/TPOU/TKPWEUG"
 ],
 "geringstmöglichste": [
-"TKPWER/EUFPBGT/PHOE/TKPWHREUFPS/TE"
+"TKPWE/REUFPBGT/PHOE/TKPWHREUFPS/TE"
 ],
 "gernhabtest": [
 "TKPWERPB/HAB/TEFT"
 ],
 "gerumgurkt": [
-"TKPWER/UPL/TKPWURBGT"
+"TKPWE/RUPL/TKPWURBGT"
 ],
 "geräuschvoll": [
-"TKPWER/OEURB/SROL"
+"TKPWE/ROEURB/SROL"
 ],
 "gesamtwirtschaftlichen": [
 "TKPWE/SAPLT/WEURT/SHAFT/HREU/KHEPB"
@@ -6229,7 +6368,7 @@
 "TKPWE/SEUFPLT"
 ],
 "gesprächstherapeutischer": [
-"TKPWE/SPRA*EFPT/HER/A/POEU/TEU/SHER"
+"TKPWE/SPRA*EFPT/HE/RA/POEU/TEU/SHER"
 ],
 "gewissenhafter": [
 "TKPWE/WEUFPB/HAF/TER",
@@ -6292,7 +6431,7 @@
 "TKPWRUPBD/WAS/SER/TPOU/REPB/TKEPB"
 ],
 "grüblerischem": [
-"TKPWROU/PWHRER/EU/SHEPL"
+"TKPWROU/PWHRE/REU/SHEPL"
 ],
 "gurkenähnliches": [
 "TKPWUR/KE/TPHAEPB/HREUFPS",
@@ -6409,8 +6548,14 @@
 "HEU/TPHAEUPB/HRAU/SHEPBL",
 "HEU/TPHAEUPB/HRAU/SHE/TPHEPL"
 ],
-"hingeabgeht": [],
-"hingeaufhelft": [],
+"hingeabgeht": [
+"HEUPB/TKPWE/ABGT",
+"HEUPB/TKPWE/AB/TKPWET"
+],
+"hingeaufhelft": [
+"HEUPB/TKPWE/AUF/HEFLT",
+"HEUPB/TKPWE/AUF/HEFLT"
+],
 "hinlümmeln": [
 "HEUPB/HROUPL/PHEPBL"
 ],
@@ -6547,8 +6692,13 @@
 "EUPB/TPHER/PWREU/TEURBS/TEPL",
 "EUPB/TPHER/PWREU/TEU/SHES/TEPL"
 ],
-"intellektualistischer": [],
-"intellektuellenfeindlicher": [],
+"intellektualistischer": [
+"EUPB/TEL/HREBG/TU/A/HREUS/TEU/SHER"
+],
+"intellektuellenfeindlicher": [
+"EUPB/TEL/HREBG/TU/EPBL/TPAEUPBD/HREU/KHER",
+"EUPB/TEL/HREBG/TU/EL/HREPB/TPAEUPBD/HREU/KHER"
+],
 "interaktionsfähiges": [
 "EUPB/TER/ABG/TEU/OPBS/TPAE/HEUGS",
 "EUPB/TER/ABG/TEU/OPBS/TPAE/HEU/TKPWES"
@@ -6591,7 +6741,9 @@
 "isolierbare": [
 "EU/SO/HRAOEUR/PWAR/E"
 ],
-"israelfreundlichste": [],
+"israelfreundlichste": [
+"EUS/RA/EL/TPROEUPBD/HREUFPS/TE"
+],
 "jage": [
 "SKWRA/TKPWE"
 ],
@@ -6606,8 +6758,8 @@
 "SKWRU/KPEUGS/TE"
 ],
 "kakanischeste": [
-"KA/KAPB/EURBS/TE",
-"KA/KAPB/EU/SHES/TE"
+"KA/KA/TPHEURBS/TE",
+"KA/KA/TPHEU/SHES/TE"
 ],
 "kapitalbildende": [
 "KA/PEU/TAL/PWEUL/TKEPB/TKE"
@@ -6650,9 +6802,11 @@
 "kegeln": [
 "KE/TKPWEPBL"
 ],
-"kenianische": [],
+"kenianische": [
+"KE/TPHEU/A/TPHEU/SHE"
+],
 "keramische": [
-"KER/A/PHEU/SHE"
+"KE/RA/PHEU/SHE"
 ],
 "klageführendem": [
 "KHRA/TKPWE/TPOURPB/TKEPL",
@@ -6666,7 +6820,8 @@
 "KHRAS/SAOEUR/TEFT"
 ],
 "kleinbäuerlichster": [
-"KHRAEUPB/PWOEUR/HREUFPS/TER"
+"KHRAEUPB/PWOEUR/HREUFPS/TER",
+"KHRAEUPB/PWOEU/ER/HREUFPS/TER"
 ],
 "kleinrussisches": [
 "KHRAEUPB/RUS/SEURBS",
@@ -6798,7 +6953,7 @@
 "KOER/PER/PWE/ZOG/TE"
 ],
 "körpergerechtet": [
-"KOER/PER/TKPWER/EFP/TET"
+"KOER/PER/TKPWE/REFP/TET"
 ],
 "lahmlegend": [
 "HRAPL/HREPBGD",
@@ -6837,7 +6992,7 @@
 ],
 "lauteren": [
 "HRAU/TERPB",
-"HRAU/TER/EPB"
+"HRAU/TE/REPB"
 ],
 "lautetest": [
 "HRAU/TE/TEFT"
@@ -6911,7 +7066,9 @@
 "manganhaltigstem": [
 "PHAPB/TKPWAPB/HAL/TEUGS/TEPL"
 ],
-"maniakalischem": [],
+"maniakalischem": [
+"PHA/TPHEU/A/KA/HREU/SHEPL"
+],
 "marketingmäßiger": [
 "PHAR/KE/TEUPBG/PHAE/SEU/TKPWER"
 ],
@@ -6928,14 +7085,14 @@
 ],
 "meereskundlichstes": [
 "PHAOERS/KUPBD/HR*EUFPTS",
-"PHAOER/ES/KUPBD/HR*EUFPTS",
+"PHAOE/RES/KUPBD/HR*EUFPTS",
 "PHAOERS/KUPBD/HREUFPS/TES",
-"PHAOER/ES/KUPBD/HREUFPS/TES"
+"PHAOE/RES/KUPBD/HREUFPS/TES"
 ],
 "megalomanischestes": [
-"PHE/TKPWA/HRO/PHAPB/EU/SHEFTS",
-"PHE/TKPWA/HRO/PHAPB/EURBS/TES",
-"PHE/TKPWA/HRO/PHAPB/EU/SHES/TES"
+"PHE/TKPWA/HRO/PHA/TPHEU/SHEFTS",
+"PHE/TKPWA/HRO/PHA/TPHEURBS/TES",
+"PHE/TKPWA/HRO/PHA/TPHEU/SHES/TES"
 ],
 "mehrgängigsten": [
 "PHER/TKPWAEPB/TKPWEUGS/TEPB"
@@ -6994,7 +7151,7 @@
 ],
 "metzgst": [],
 "mexikanisch": [
-"PHE/KPEU/KAPB/EURB"
+"PHE/KPEU/KA/TPHEURB"
 ],
 "miesmachenen": [
 "PHAOEUS/PHA/KHE/TPHEPB"
@@ -7017,10 +7174,8 @@
 "PHEUT/PWES/TEL/HREPBD"
 ],
 "mitgliederöffentlichstem": [
-"PHEUT/TKPWHRAOEURD/OEFPBT/HREUFPS/TEPL",
-"PHEUT/TKPWHRAOEU/TKER/OEFPBT/HREUFPS/TEPL",
-"PHEUT/TKPWHRAOEURD/OEF/TPEPBT/HREUFPS/TEPL",
-"PHEUT/TKPWHRAOEU/TKER/OEF/TPEPBT/HREUFPS/TEPL"
+"PHEUT/TKPWHRAOEU/TKE/ROEFPBT/HREUFPS/TEPL",
+"PHEUT/TKPWHRAOEU/TKE/ROEF/TPEPBT/HREUFPS/TEPL"
 ],
 "mitsparend": [
 "PHEUT/SPARPBD",
@@ -7030,8 +7185,15 @@
 "mittelbosnischem": [
 "PHEUT/TEL/PWOS/TPHEU/SHEPL"
 ],
-"mitteleuropäischester": [],
-"mittelosteuropäischestes": [],
+"mitteleuropäischester": [
+"PHEUT/TEL/OEU/RO/PAE/EURBS/TER",
+"PHEUT/TEL/OEU/RO/PAE/EU/SHES/TER"
+],
+"mittelosteuropäischestes": [
+"PHEUT/TEL/OS/TOEU/RO/PAE/EU/SHEFTS",
+"PHEUT/TEL/OS/TOEU/RO/PAE/EURBS/TES",
+"PHEUT/TEL/OS/TOEU/RO/PAE/EU/SHES/TES"
+],
 "mitursächlichstes": [],
 "modemutigstes": [
 "PHO/TKE/PHU/TEUFGTS",
@@ -7064,9 +7226,11 @@
 "multikulturell": [
 "PHUL/TEU/KUL/TU/REL"
 ],
-"multimediafähigste": [],
+"multimediafähigste": [
+"PHUL/TEU/PHE/TKEU/A/TPAE/HEUGS/TE"
+],
 "mundgerecht": [
-"PHUPBD/TKPWER/EFPT"
+"PHUPBD/TKPWE/REFPT"
 ],
 "murkeligsten": [
 "PHUR/KE/HREUGS/TEPB"
@@ -7117,8 +7281,15 @@
 "nebenhaltest": [
 "TPHE/PWEPB/HAL/TEFT"
 ],
-"neokommunistisches": [],
-"neonationalistischestes": [],
+"neokommunistisches": [
+"TPHE/O/KOPL/PHU/TPHEUS/TEURBS",
+"TPHE/O/KOPL/PHU/TPHEUS/TEU/SHES"
+],
+"neonationalistischestes": [
+"TPHE/O/TPHA/TEU/O/TPHA/HREUS/TEU/SHEFTS",
+"TPHE/O/TPHA/TEU/O/TPHA/HREUS/TEURBS/TES",
+"TPHE/O/TPHA/TEU/O/TPHA/HREUS/TEU/SHES/TES"
+],
 "nervösem": [
 "TPHER/SROE/SEPL"
 ],
@@ -7134,7 +7305,7 @@
 ],
 "neunzehnteres": [
 "TPHOEUPB/ZEPB/TERS",
-"TPHOEUPB/ZEPB/TER/ES"
+"TPHOEUPB/ZEPB/TE/RES"
 ],
 "neunzigprozentigstes": [],
 "neunzigsterstes": [
@@ -7174,9 +7345,9 @@
 "TPHORD/TPEUPB/TPHEU/SHES"
 ],
 "nordostafrikanischestes": [
-"TPHOR/TKOS/TA/TPREU/KAPB/EU/SHEFTS",
-"TPHOR/TKOS/TA/TPREU/KAPB/EURBS/TES",
-"TPHOR/TKOS/TA/TPREU/KAPB/EU/SHES/TES"
+"TPHOR/TKOS/TA/TPREU/KA/TPHEU/SHEFTS",
+"TPHOR/TKOS/TA/TPREU/KA/TPHEURBS/TES",
+"TPHOR/TKOS/TA/TPREU/KA/TPHEU/SHES/TES"
 ],
 "nordsibirisch": [
 "TPHORD/SEU/PWEU/REURB"
@@ -7200,8 +7371,7 @@
 "TPHOE/HREUGS/TER"
 ],
 "oberes": [
-"ORBS",
-"ORB/ES"
+"ORBS"
 ],
 "offizieller": [
 "OF/TPEU/ZAOEUL/HRER"
@@ -7213,7 +7383,7 @@
 "OBG/KA/SEU/O/TPHELS/TEPL"
 ],
 "operierbarste": [
-"O/PER/AOEUR/PWAFRT/E"
+"O/PE/RAOEUR/PWAFRT/E"
 ],
 "orgastischestes": [
 "OR/TKPWAS/TEU/SHEFTS",
@@ -7233,9 +7403,11 @@
 "PAPBT/HAEUS/TEU/SHEPL"
 ],
 "parmesanischem": [
-"PAR/PHE/SAPB/EU/SHEPL"
+"PAR/PHE/SA/TPHEU/SHEPL"
 ],
-"parteiaktiv": [],
+"parteiaktiv": [
+"PAR/TAEU/ABG/TEUF"
+],
 "parteienübergreifenden": [
 "PAR/TAEU/E/TPHOURB/TKPWRAEUFPB/TKEPB",
 "PAR/TAEU/E/TPHOU/PWER/TKPWRAEUFPB/TKEPB",
@@ -7269,7 +7441,7 @@
 "phylogenetischestes": [],
 "phänotypisches": [],
 "planimetrischer": [
-"PHRAPB/EU/PHE/TREU/SHER"
+"PHRA/TPHEU/PHE/TREU/SHER"
 ],
 "plattdeutsch": [
 "PHRAT/TKOEURB"
@@ -7349,10 +7521,18 @@
 ],
 "pyramidenartigstem": [],
 "päpstlicher": [],
-"qualitativer": [],
-"quantenmechanischeste": [],
+"qualitativer": [
+"KWU/A/HREU/TA/TEUFR",
+"KWU/A/HREU/TA/TEU/SRER"
+],
+"quantenmechanischeste": [
+"KWU/APB/TEPB/PHE/KHA/TPHEURBS/TE",
+"KWU/APB/TEPB/PHE/KHA/TPHEU/SHES/TE"
+],
 "quetschet": [
-"KWUT/SHET"
+"KWU/ERBT",
+"KWUT/SHET",
+"KWU/ET/SHET"
 ],
 "quicklebendig": [],
 "quietschlebendig": [],
@@ -7392,7 +7572,9 @@
 "RAUS/PUTS/TET",
 "RAUS/PUTZ/TET"
 ],
-"reaktionsfähigstem": [],
+"reaktionsfähigstem": [
+"RE/ABG/TEU/OPBS/TPAE/HEUGS/TEPL"
+],
 "rechtsförmig": [
 "REFPTS/TPOER/PHEUG"
 ],
@@ -7407,15 +7589,14 @@
 "RED/SE/HREU/TKPWER"
 ],
 "referiere": [
-"REFR/AOEU/RE",
-"RE/TPER/AOEU/RE"
+"RE/TPE/RAOEU/RE"
 ],
 "regeltet": [],
 "regelungsbedürftigsten": [
 "RE/TKPWE/HRUPBGS/PWE/TKOUFR/TEUGS/TEPB"
 ],
 "regenerativ": [
-"RE/TKPWE/TPHER/A/TEUF"
+"RE/TKPWE/TPHE/RA/TEUF"
 ],
 "regierbar": [
 "RE/TKPWAOEUR/PWAR"
@@ -7428,7 +7609,7 @@
 "RE/TKPWU/HRAOEUR/TEFT"
 ],
 "reicherest": [
-"RAEU/KHER/EFT"
+"RAEU/KHE/REFT"
 ],
 "reimportierest": [
 "RAEUPL/POR/TAOEU/REFT"
@@ -7589,8 +7770,8 @@
 "SAPB/TKPWES/KUPB/TKEU/TKPWEPL"
 ],
 "sanitärtechnischeste": [
-"SAPB/EU/TAER/TEFP/TPHEURBS/TE",
-"SAPB/EU/TAER/TEFP/TPHEU/SHES/TE"
+"SA/TPHEU/TAER/TEFP/TPHEURBS/TE",
+"SA/TPHEU/TAER/TEFP/TPHEU/SHES/TE"
 ],
 "sarkastischestem": [
 "SAR/KAS/TEURBS/TEPL",
@@ -7616,7 +7797,7 @@
 ],
 "savst": [],
 "scharfmacherisch": [
-"SHAFR/PHA/KHER/EURB"
+"SHAFR/PHA/KHE/REURB"
 ],
 "schaten": [
 "SHA/TEPB"
@@ -7654,8 +7835,7 @@
 "SHREUP/PE"
 ],
 "schluderiger": [
-"SHRURD/EU/TKPWER",
-"SHRU/TKER/EU/TKPWER"
+"SHRU/TKE/REU/TKPWER"
 ],
 "schmalem": [
 "SPHA/HREPL"
@@ -7697,8 +7877,8 @@
 "STPHOER/KE/HREU/TKPWEPB"
 ],
 "schriftstellerischestem": [
-"SHREUFTS/TEL/HRER/EURBS/TEPL",
-"SHREUFTS/TEL/HRER/EU/SHES/TEPL"
+"SHREUFTS/TEL/HRE/REURBS/TEPL",
+"SHREUFTS/TEL/HRE/REU/SHES/TEPL"
 ],
 "schrägstehendesten": [
 "SHRAEG/STE/HEPB/TKES/TEPB"
@@ -7717,7 +7897,7 @@
 "SWHEPBG/PWARS/TEPL"
 ],
 "schwindlerischer": [
-"SWHEUPBD/HRER/EU/SHER"
+"SWHEUPBD/HRE/REU/SHER"
 ],
 "schwingst": [
 "SWHEUFPBGT"
@@ -7804,7 +7984,7 @@
 "SEU/TPHO/HRO/TKPWEU/SHES/TEPB"
 ],
 "sintere": [
-"SEUPB/TER/E"
+"SEUPB/TE/RE"
 ],
 "sintflutartigste": [],
 "sirenenartiges": [],
@@ -7821,8 +8001,8 @@
 "SKEUZ/ZAOEU/REFT"
 ],
 "sklerotischestem": [
-"SKHRER/O/TEURBS/TEPL",
-"SKHRER/O/TEU/SHES/TEPL"
+"SKHRE/RO/TEURBS/TEPL",
+"SKHRE/RO/TEU/SHES/TEPL"
 ],
 "sofortige": [
 "SO/TPOR/TEU/TKPWE"
@@ -7839,9 +8019,15 @@
 "SOPB/TET"
 ],
 "sowjetischesten": [],
-"sozialchristlich": [],
-"sozialpädiatrischen": [],
-"sozialtherapeutische": [],
+"sozialchristlich": [
+"SO/ZEU/AL/KHREUFT/HREUFP"
+],
+"sozialpädiatrischen": [
+"SO/ZEU/AL/PAE/TKEU/A/TREU/SHEPB"
+],
+"sozialtherapeutische": [
+"SO/ZEU/AL/THE/RA/POEU/TEU/SHE"
+],
 "sozioökonomisch": [],
 "spaßige": [
 "SPA/SEU/TKPWE"
@@ -7859,7 +8045,7 @@
 ],
 "sponseren": [
 "SPOPB/SERPB",
-"SPOPB/SER/EPB"
+"SPOPB/SE/REPB"
 ],
 "sportpädagogischester": [
 "SPORT/PAE/TKA/TKPWO/TKPWEURBS/TER",
@@ -7869,7 +8055,7 @@
 "SPRAFP/TKPWE/SHEUFPT/HREU/KHER"
 ],
 "sprecherische": [
-"SPRE/KHER/EU/SHE"
+"SPRE/KHE/REU/SHE"
 ],
 "sprengt": [
 "SPREPBGT"
@@ -7987,8 +8173,8 @@
 "TA/TPEL/TPOER/PHEU/TKPWEPL"
 ],
 "taiwanischesten": [
-"TAEU/WAPB/EURBS/TEPB",
-"TAEU/WAPB/EU/SHES/TEPB"
+"TAEU/WA/TPHEURBS/TEPB",
+"TAEU/WA/TPHEU/SHES/TEPB"
 ],
 "takten": [
 "TABG/TEPB"
@@ -7997,7 +8183,7 @@
 "TA/PERPB"
 ],
 "tapfere": [
-"TA/TKPER/E"
+"TA/TKPE/RE"
 ],
 "tarifrechtliches": [
 "TA/REU/TPREFPT/HREUFPS",
@@ -8017,7 +8203,7 @@
 "TEBGS/TEUL/TEFP/TPHEU/SHES/TE"
 ],
 "therapeutische": [
-"THER/A/POEU/TEU/SHE"
+"THE/RA/POEU/TEU/SHE"
 ],
 "thrombotischesten": [
 "THROPL/PWO/TEURBS/TEPB",
@@ -8040,14 +8226,14 @@
 ],
 "tierphysiologischestem": [],
 "tolerant": [
-"TO/HRER/APBT"
+"TO/HRE/RAPBT"
 ],
 "totlauften": [
 "TOT/HRAUF/TEPB"
 ],
 "toupiert": [],
 "transferierbarstem": [
-"TRAPBS/TPER/AOEUR/PWARS/TEPL"
+"TRAPBS/TPE/RAOEUR/PWARS/TEPL"
 ],
 "tratschtest": [
 "TRARB/TEFT"
@@ -8083,7 +8269,7 @@
 "TUF/TPEU/TKPWEPL"
 ],
 "turnierverantwortlichstem": [
-"TUR/TPHAOEUR/SRER/APBT/WORT/HREUFPS/TEPL"
+"TUR/TPHAOEUR/SRE/RAPBT/WORT/HREUFPS/TEPL"
 ],
 "törggelen": [
 "TOERG/TKPWEPBL",
@@ -8195,11 +8381,13 @@
 "ungeladetest": [
 "UPB/TKPWE/HRA/TKE/TEFT"
 ],
-"ungeordnet": [],
+"ungeordnet": [
+"UPB/TKPWE/ORD/TPHET"
+],
 "ungerechtestes": [
-"UPB/TKPWER/EFP/TEFTS",
-"UPB/TKPWER/EFPTS/TES",
-"UPB/TKPWER/EFP/TES/TES"
+"UPB/TKPWE/REFP/TEFTS",
+"UPB/TKPWE/REFPTS/TES",
+"UPB/TKPWE/REFP/TES/TES"
 ],
 "ungeschlage": [
 "UPB/TKPWE/SHRA/TKPWE"
@@ -8442,7 +8630,8 @@
 ],
 "vertrocknst": [],
 "vertäuet": [
-"SRER/TOEUT"
+"SRER/TOEUT",
+"SRER/TOEU/ET"
 ],
 "verunfallte": [
 "SRER/UPB/TPAL/TE"
@@ -8461,7 +8650,7 @@
 "SRER/AEFPT/HREU/KHER"
 ],
 "veterinäre": [
-"SRE/TER/EU/TPHAE/RE"
+"SRE/TE/REU/TPHAE/RE"
 ],
 "vielförmiges": [
 "SRAOEUL/TPOER/PHEUGS",
@@ -8535,7 +8724,9 @@
 "vordringten": [
 "SRORD/REUPBG/TEPB"
 ],
-"vorgeansetzt": [],
+"vorgeansetzt": [
+"SROR/TKPWE/APB/SEFT"
+],
 "vorgeblichste": [
 "SROR/TKPWE/PWHREUFPS/TE"
 ],
@@ -8566,7 +8757,7 @@
 "SROR/WAG/TE"
 ],
 "vulnerabelstem": [
-"SRUL/TPHER/A/PWELS/TEPL"
+"SRUL/TPHE/RA/PWELS/TEPL"
 ],
 "wachgebleiben": [
 "WAFP/TKPWE/PWHRAEU/PWEPB"
@@ -8592,8 +8783,8 @@
 "WAG/HAL/SEUG"
 ],
 "wahlkämpferischesten": [
-"WAL/KAEPL/TKPER/EURBS/TEPB",
-"WAL/KAEPL/TKPER/EU/SHES/TEPB"
+"WAL/KAEPL/TKPE/REURBS/TEPB",
+"WAL/KAEPL/TKPE/REU/SHES/TEPB"
 ],
 "wahrgewordete": [
 "WAR/TKPWE/WOR/TKE/TE"
@@ -8636,7 +8827,7 @@
 "WE/RUPB/WOUR/TKEUGS/TER"
 ],
 "weitergereicht": [
-"WAEU/TER/TKPWER/AEUFPT"
+"WAEU/TER/TKPWE/RAEUFPT"
 ],
 "weitergeverkauft": [
 "WAEU/TER/TKPWEFR/KAUFT",
@@ -8700,14 +8891,14 @@
 "WAOEU/TKER/AUF/HRAPL/PHEPB/TKE"
 ],
 "wiedervereinigungsgläubiges": [
-"WAOEURD/SRER/AEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEUGS",
-"WAOEU/TKER/SRER/AEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEUGS",
-"WAOEURD/SRER/AEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEU/TKPWES",
-"WAOEU/TKER/SRER/AEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEU/TKPWES"
+"WAOEURD/SRE/RAEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEUGS",
+"WAOEU/TKER/SRE/RAEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEUGS",
+"WAOEURD/SRE/RAEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEU/TKPWES",
+"WAOEU/TKER/SRE/RAEU/TPHEU/TKPWUPBGS/TKPWHROEU/PWEU/TKPWES"
 ],
 "wienerischeste": [
-"WAOEU/TPHER/EURBS/TE",
-"WAOEU/TPHER/EU/SHES/TE"
+"WAOEU/TPHE/REURBS/TE",
+"WAOEU/TPHE/REU/SHES/TE"
 ],
 "wikingischestem": [
 "WEU/KEUPB/TKPWEURBS/TEPL",
@@ -8770,7 +8961,7 @@
 "ZEPB/TKPWE/SHOS/SEU/TKPWEPB"
 ],
 "zerarbeitetet": [
-"ZER/AR/PWAEU/TE/TET"
+"ZE/RAR/PWAEU/TE/TET"
 ],
 "zerberstetet": [
 "ZER/PWERS/TE/TET"
@@ -8812,7 +9003,9 @@
 "zoniertest": [
 "ZO/TPHAOEUR/TEFT"
 ],
-"zoogeografische": [],
+"zoogeografische": [
+"ZAO/TKPWE/O/TKPWRA/TPEU/SHE"
+],
 "zufreidete": [
 "ZU/TPRAEU/TKE/TE"
 ],
@@ -8903,7 +9096,9 @@
 "Ölkuchen": [
 "OEL/KU/KHEPB"
 ],
-"Überbeanspruchungen": [],
+"Überbeanspruchungen": [
+"OURB/PWE/APB/SPRU/KHUPB/TKPWEPB"
+],
 "Überdimensionierungen": [
 "OURB/TKEUPBL/SEU/O/TPHAOEU/RUPB/TKPWEPB",
 "OURB/TKEU/PHEPB/SEU/O/TPHAOEU/RUPB/TKPWEPB"

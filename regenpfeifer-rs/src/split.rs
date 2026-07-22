@@ -59,12 +59,20 @@ impl PartSplitter {
 // ---------------------------------------------------------------------------
 
 const VOWELS: &[&str] = &["a", "e", "i", "o", "u", "ä", "ö", "ü"];
-const SPLIT_VOWEL_PAIRS: &[&str] = &["io", "eie", "eue"];
+const SPLIT_VOWEL_PAIRS: &[&str] = &[
+    "io", "eie", "eue", "ua", "äi", "ea", "eo", "ia", "ue", "ae", "äe", "oe",
+];
 const PREVENTING_VOWEL_SPLIT_RIGHT: &[&str] = &["nen"];
 const SPLITTERS: &[&str] = &["sst", "ier"];
 const NON_CONNECTORS: &[&str] = &["chl"];
 const CERTAIN_CONNECTORS: &[&str] = &["sch", "ch", "ck", "schl", "chl"];
 const LEFT_CONNECTORS: &[&str] = &["er", "an"];
+// er/an keep the consonant in the preceding syllable only when they end a
+// prefix (ver|ein, über|all); word-internally it onsets the next syllable.
+const LEFT_CONNECTOR_PREFIXES: &[&str] = &[
+    "er", "an", "ver", "her", "über", "ueber", "unter", "inter", "hinter", "wider", "wieder",
+    "außer", "ausser",
+];
 const LEFT_NON_CONNECTORS: &[&str] = &["ana"];
 const POSSIBLE_CONNECTORS: &[&str] = &[
     "ph", "pf", "br", "pl", "tr", "gr", "sp", "kl", "zw", "spr", "fr", "gl", "bl", "ren",
@@ -156,7 +164,12 @@ impl SyllableSplitter {
         } else if LEFT_NON_CONNECTORS.contains(&format!("{v}{z1}").as_str()) {
             Self::add_split_position(i as i64 + 2, chars, out);
         } else if LEFT_CONNECTORS.contains(&v) {
-            Self::add_split_position(i as i64 + 1, chars, out);
+            let through_boundary: String = chars[..=i].iter().collect();
+            if LEFT_CONNECTOR_PREFIXES.contains(&through_boundary.as_str()) {
+                Self::add_split_position(i as i64 + 1, chars, out);
+            } else {
+                Self::add_split_position(i as i64, chars, out);
+            }
         } else if POSSIBLE_CONNECTORS.contains(&v) {
             Self::add_split_position(i as i64 - v_len + 1, chars, out);
         } else {
